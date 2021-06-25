@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+html body{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  background-image: url("./images/pattern-curves.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.content p{
+  color: hsl(240, 18%, 77%);
+  font-size: 32px;
+}
+
+.box1{
+  order: 1;
+  flex-basis: 50%;
+  background-image: url("./images/pattern-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top 20vh center;
+  padding-top: 20vh;
+}
+
+.name{
+  color: hsl(240, 38%, 20%);
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.box2{
+  position: relative;
+  order: 2;
+  flex-basis: 50%;
+}
+
+.bg{
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+
+.photo{
+  position: absolute;
+  max-width: 80%;
+  top: 10vh;
+  left: 80px;
+}
+
+
+.buttons{
+  position: absolute;
+  bottom: -10px;
+  left: 20%;
+}
+
+.buttons button{
+  margin: -3px;
+  margin-bottom: 0px;
+  padding:5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: hsl(0, 0%, 75%);
+}
+.prev{
+  border-style: solid none solid solid;
+  border-radius: 100%  0% 0% 100%;
+}
+.next{
+  border-style: solid solid solid none;
+  border-radius: 0% 100% 100% 0%;
+}
+
+
+@media only screen and (max-width:767px){
+  .buttons{
+    text-align: center;
+  }
+  .content{
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .box1{
+    order: 2;
+    flex-basis: 100%;
+  }
+
+  .box2{
+    order: 1;
+    flex-basis: 100%;
+  }
+  .buttons{
+    left: 40%;
+  }
+
+}

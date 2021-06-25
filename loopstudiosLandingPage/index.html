@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./master.css">
+  <script src="./main.js" charset="utf-8"></script>
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="top">
+      <img src="./images/logo.svg" alt="company logo"  class="logo">
+      <div class="btn">
+        <img src="images/icon-hamburger.svg" alt="" id="open">
+      </div>
+    </div>
+    <nav>
+      <div class="top">
+        <img src="./images/logo.svg" alt="company logo">
+        <div class="btn">
+          <img src="./images/icon-close.svg" alt="" id="close">
+        </div>
+      </div>
+      <ul  class="nav__list">
+        <li class="nav__link">About</li>
+        <li class="nav__link">Careers</li>
+        <li class="nav__link">Events</li>
+        <li class="nav__link">Products</li>
+        <li class="nav__link">Support</li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <picture>
+      <source srcset="./images/desktop/image-hero.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-hero.jpg" alt="">
+    </picture>
+    <h1 class="hero__heading">Immersive experiences that deliver</h1>
+  </div>
+
+  <section class="active">
+    <picture>
+      <source srcset="./images/desktop/image-interactive.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-interactive.jpg" alt="">
+    </picture>
+    <div>
+      <h1>The leader in interactive VR</h1>
+
+      <p>Founded in 2011, Loopstudios has been producing world-class virtual reality
+      projects for some of the best companies around the globe. Our award-winning
+      creations have transformed businesses through digital experiences that bind
+      to their brand.</p>
+    </div>
+  </section>
+
+<section class="creation">
+  <h1>Our creations</h1>
+  <a href="#" class="creation--btn">See all</a>
+
+  <div class="creation--display">
+    <picture class="creation--box">
+      <source srcset="./images/desktop/image-deep-earth.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-deep-earth.jpg" alt="deep earth">./
+      <figcaption class="creation--box--cap">Deep earth</figcaption>
+    </picture>
+
+    <picture class="creation--box">
+      <source srcset="./images/desktop/image-night-arcade.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-night-arcade.jpg" alt="Flowers">
+      <figcaption class="creation--box--cap">Night arcade</figcaption>
+    </picture>
+
+    <picture class="creation--box">
+      <source srcset="./images/desktop/image-soccer-team.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-soccer-team.jpg" alt="Flowers">
+      <figcaption class="creation--box--cap">Soccer team VR</figcaption>
+    </picture>
+
+    <picture class="creation--box">
+      <source srcset="./images/desktop/image-grid.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-grid.jpg" alt="Flowers">
+      <figcaption class="creation--box--cap">The grid</figcaption>
+    </picture>
+
+    <picture class="creation--box">
+      <source srcset="./images/desktop/image-from-above.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-from-above.jpg" alt="Flowers">
+      <figcaption class="creation--box--cap">From up above VR</figcaption>
+    </picture>
+
+    <picture class="creation--box">
+      <source srcset="./images/desktop/image-pocket-borealis.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-pocket-borealis.jpg" alt="Flowers">
+      <figcaption class="creation--box--cap">Pocket borealis</figcaption>
+    </picture>
+
+    <picture class="creation--box">
+      <source srcset="./images/desktop/image-curiosity.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-curiosity.jpg" alt="Flowers">
+      <figcaption class="creation--box--cap">The curiosity</figcaption>
+    </picture>
+
+    <picture class="creation--box">
+      <source srcset="./images/desktop/image-fisheye.jpg" media="(min-width: 700px)">
+      <img src="./images/mobile/image-fisheye.jpg" alt="Fish eye">
+      <figcaption class="creation--box--cap">Make it fisheye</figcaption>
+    </picture>
+
+  </div>
+
+</section>
+  <footer>
+    <div class="footer__col1">
+      <img src="./images/logo.svg" alt="" class="logo">
+      <ul class="list">
+        <li class="list__item">About</li>
+        <li class="list__item">Careers</li>
+        <li class="list__item">Events</li>
+        <li class="list__item">Products</li>
+        <li class="list__item">Support</li>
+      </ul>
+    </div>
+    <div class="footer__col2">
+      <ul class="social__list">
+        <li class="social__link"><img src="./images/icon-facebook.svg" alt="facebook"> </li>
+        <li class="social__link"><img src="./images/icon-twitter.svg" alt="twitter"> </li>
+        <li class="social__link"><img src="./images/icon-pinterest.svg" alt="pintrest"> </li>
+        <li class="social__link"><img src="./images/icon-instagram.svg" alt="instagram"> </li>
+      </ul>
+
+      <p class="copywright">© 2021 Loopstudios. All rights reserved.</p>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Soransh Singh</a>.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

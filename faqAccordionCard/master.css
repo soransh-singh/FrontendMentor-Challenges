@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+html body{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: linear-gradient(140deg, hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main-box{
+  display: grid;
+  place-items: center;
+  padding-top: 15vh;
+}
+
+.box{
+  border-radius: 20px;
+  background-color: white;
+  background-image: url("./images/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  box-shadow: 0px 10px 12px  rgba(0, 0, 0, 0.2);
+}
+.image{
+  min-width: 50%;
+}
+
+.image img{
+  width: 120%;
+  height: auto;
+  position: relative;
+  left: -35%;
+  top: 10%;
+}
+
+.question{
+min-width: 50%;
+}
+
+.dropdown{
+  padding: 10px;
+  padding-left: 0px;
+  position: relative;
+  display: block;
+  margin: 10px;
+  margin-left: 0px;
+  border-bottom: 2px solid hsl(240, 5%, 91%);
+}
+
+.bolder{
+  font-weight: 700;
+}
+
+.arrow{
+  float: right;
+  padding-top: 5px;
+}
+
+.dropdown-content{
+  color: hsl(240, 6%, 50%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight:lighter;
+}
+.show{
+  display: none;
+
+}
+
+.dropdown:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+
+@media only screen and (max-width:600px) {
+  h1{
+    text-align: center;
+  }
+  .box{
+    background-image: url("./images/bg-pattern-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:contain;
+    width: 80%;
+    margin-top: 50px;
+    flex-flow: column;
+  }
+
+  .image img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: -10%;
+    margin-top: -40%;
+    margin-left: 20px;
+  }
+  .dropdown{
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+}

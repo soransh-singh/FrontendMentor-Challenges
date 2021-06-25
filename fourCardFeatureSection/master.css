@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  color: hsl(229, 6%, 66%)
+}
+
+.header{
+  text-align: center;
+  padding: 2.5rem 0;
+  justify-content:center;
+  place-items: center;
+}
+
+.heading{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+
+}
+
+.main{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content:center;
+  place-items: center;
+}
+
+[class*="box"]{
+  width: 20rem;
+  min-height: 14rem;
+  padding: 1.5rem;
+  justify-content: center;
+  border-radius: .5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+
+.box1{
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.box2{
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.box3{
+  margin-top: 1.5rem;
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.box4{
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.container{
+  display: grid;
+  place-items: center;
+  margin: 0 1.5rem;
+}
+
+.tag{
+  font-weight: bolder;
+  color:hsl(234, 12%, 34%);
+}
+
+.image{
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.attribution { font-size: 1rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width:1072px) and (min-width:600px) {
+  :root{
+    font-size: 16px;
+  }
+  .main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
+  }
+  .box1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .container{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .box4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+
+
+}
+
+@media only screen and (max-width:600px) {
+  :root{
+    font-size: 10px;
+  }
+  .main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto ;
+    justify-content:center;
+    place-items: center;
+  }
+
+}
