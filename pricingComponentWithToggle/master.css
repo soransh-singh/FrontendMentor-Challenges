@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+:root{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+head, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('./images/bg-top.svg') , url('./images/bg-bottom.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, bottom left;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.hide{
+  display: none;
+}
+
+.switch{
+  margin: -1rem 0;
+  -webkit-appearance: none;
+  outline: none;
+  width: 80px;
+  height: 40px;
+  background-image: linear-gradient(to right,hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.switch::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+input:checked:before {
+  transform: translate(100%);
+}
+
+.heading{
+  text-align: center;
+  margin: 2rem 0;
+  color: hsl(233, 13%, 49%);
+}
+
+.title{
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.label{
+  padding: 0 2rem;
+}
+
+.main{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+}
+
+.block{
+  text-align: center;
+  padding: 4rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.side{
+  background-color: hsl(360, 100%, 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: hsl(233, 13%, 49%);
+}
+
+.center{
+  background-image: linear-gradient(hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+  color: hsl(360, 100%, 100%);
+}
+
+.block--cost{
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+hr{
+  margin: 20px 0;
+  opacity: 50%;
+}
+
+.learn{
+  margin-top: 2rem;
+  border: solid 1px;
+  padding: 1rem 0;
+
+}
+
+.side .learn{
+  background-image: linear-gradient(to right,hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
+  color: white;
+}
+
+.center .learn{
+  background-color: white;
+  color: hsl(233, 13%, 49%);
+}
+
+@media only screen and (min-width:768px)
+{/* for desktop */
+  .main{
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+  }
+  .side{
+    margin: 20px 0;
+  }
+
+}
