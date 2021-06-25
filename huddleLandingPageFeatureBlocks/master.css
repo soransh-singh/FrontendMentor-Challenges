@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+:root{
+  font-size: 18px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+li{
+  padding: .5rem 0;
+}
+
+.main, .footer{
+  padding: 0 1rem;
+}
+
+.main{
+  padding-top: 1rem;
+  background-image: url("images/bg-hero-mobile.svg");
+  background-color: hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main__heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.main__heading--logo{
+}
+
+.main__heading--logo img{
+  max-width: 50%;
+}
+
+.main__heading--try{
+  padding: .5rem .5rem;
+  font-size: .8rem;
+  background-color: white;
+  border-radius: 1.25rem;
+}
+
+.main--content__heading{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.blocks{
+  margin: 0 1rem;
+}
+
+.block{
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  margin-top: 2rem;
+}
+
+.blocks .block{
+  padding: 0 1rem;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.block--content{
+  text-align: center;
+}
+
+.ready__button{
+  position: relative;
+  border-radius: 1rem;
+  margin: 0 1rem;
+  margin-top: 2rem;
+  margin-bottom: -4.5rem;
+  padding: 2rem 1rem;
+  z-index: 2;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ready__button--heading{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn{
+  background-color: hsl(322, 100%, 66%);
+  margin: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 1.75rem;
+}
+
+.btn a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer{
+  padding: 6rem 1rem;
+  color: white;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footer--list{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto  auto auto;
+}
+
+
+
+@media only screen and (min-width:768px)
+{/* for desktop */
+  .main, .footer{
+    padding: 6rem 10%;
+  }
+
+  .main{
+    background-image: url("images/bg-hero-desktop.svg");;
+  }
+
+  .main__heading--logo img{
+    max-width: 100%;
+  }
+
+  .main__heading--try{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .main--content{
+    padding-right: 2rem;
+  }
+
+  .main--content__heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    text-align: left;
+  }
+
+  .blocks{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .block{
+    grid-template-columns: 49% 49%;
+    grid-template-rows: auto;
+  }
+
+
+.block__2 .block--content{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.block__2 .image{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.block--content{
+    text-align: left;
+  }
+
+  .footer--list{
+    display: grid;
+    grid-template-columns: 30% 25% 25%;
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+
+  .ready__button, .btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .ready__button--heading{
+    font-size: 1.25rem;
+  }
+
+}
