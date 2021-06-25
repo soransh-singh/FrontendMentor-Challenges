@@ -1,0 +1,39 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("./../images/bg-pattern-top.svg"), url("./../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position:  -70% 120%, 140% -70%;
+  @media (max-width: 800px){
+    background-position:  -160% -100%, 180% 200%;
+    background-size: 500px, 500px;
+  }
+}
+
+.main--body{
+  transition: all 0.4s ease-in;
+  box-shadow: 2px 6px 16px #666;
+  &:hover{
+    box-shadow:  2px 2px 6px #fff,4px 4px 10px #aaa, 2px 6px 16px #666;
+  }
+}
+
+.name{
+  &:hover{
+    cursor: pointer;
+    color: hsl(229, 23%, 13% );
+  }
+}
+
+.list__item{
+  transition: all 0.4s ease-in;
+  &:hover{
+    color:  hsl(229, 23%, 23% );
+    font-weight: 700;
+    cursor: pointer;
+    .list__item--heading{
+      transition: all 0.4s ease-in;
+      transform: scale(1.1);
+    }
+  }
+}

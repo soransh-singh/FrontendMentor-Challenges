@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.heading{
+  font-size: 40px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  text-align: center;
+}
+.description{
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+}
+
+.reviews{
+  display: block;
+  background-color:hsl(300, 24%, 90%);
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius:  5px;
+  color: hsl(333, 80%, 67%);
+}
+
+  .reviews:nth-of-type(1), .reviews:last-of-type{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.views{
+  margin-top: 50px;
+}
+
+
+.comment{
+  margin-top: 40px;
+  min-height: 300px;
+  padding: 40px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+
+
+.comment img{
+  border-radius: 100%;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.name{
+  padding-left: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: hsl(333, 80%, 67%);
+}
+
+.comment-write{
+  color: hsl(0, 0%, 100%);
+  display: block;
+  padding-top: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+[class*="col-"]{
+  padding: 15px;
+  float: left;
+  width: 100%;
+}
+
+
+@media only screen and (min-width:400px)
+{/* for desktop */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .main-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 10px;
+  }
+  .reviews:nth-of-type(1){
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 15%;
+  }
+
+  .reviews:last-of-type{
+    margin-left: 15%;
+    margin-right: 5%;
+  }
+  .heading{
+    font-size: 40px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding-right: 20%;
+    text-align: left;
+  }
+  .description{
+    color: hsl(303, 10%, 53%);
+    text-align: left;
+  }
+}

@@ -1,0 +1,126 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #19a2ae;
+  background-image: url("./../images/bg-pattern-top.svg"), url("./../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-position: -70% 120%, 140% -70%;
+}
+@media (max-width: 800px) {
+  body {
+    background-position: -160% -100%, 180% 200%;
+    background-size: 500px, 500px;
+  }
+}
+
+.main--body {
+  transition: all 0.4s ease-in;
+  box-shadow: 2px 6px 16px #666;
+}
+.main--body:hover {
+  box-shadow: 2px 2px 6px #fff, 4px 4px 10px #aaa, 2px 6px 16px #666;
+}
+
+.name:hover {
+  cursor: pointer;
+  color: #1a1c29;
+}
+
+.list__item {
+  transition: all 0.4s ease-in;
+}
+.list__item:hover {
+  color: #2d3248;
+  font-weight: 700;
+  cursor: pointer;
+}
+.list__item:hover .list__item--heading {
+  transition: all 0.4s ease-in;
+  transform: scale(1.1);
+}
+
+.main {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main--body {
+  max-width: 400px;
+  margin: 0 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.image img {
+  border-radius: 8px 8px 0 0;
+}
+
+.victor {
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  bottom: 48px;
+  left: calc(50% - 48px);
+  border: solid 5px #fff;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  border-top: solid 1px #c9c9c9;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6a6f81;
+  text-transform: capitalize;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+  text-transform: capitalize;
+}
+
+.age {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6a6f81;
+  text-transform: capitalize;
+}
+
+.list__item--heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,135 @@
+* {
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+  box-sizing: border-box;
+}
+
+html body{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: hsl(0, 0%, 81%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+img{
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+
+.container{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+[class*="box"]{
+  color: hsl(0, 0%, 100%);
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.box1{
+  background-color: hsl(263, 55%, 52%);
+}
+
+.box2{
+  background-color: hsl(217, 19%, 35%);
+}
+
+.box3{
+  background-color: hsl(0, 0%, 100%);
+  color:hsl(217, 19%, 35%);
+}
+
+.box4{
+  background-color: hsl(219, 29%, 14%);
+}
+
+.box5{
+  background-color: hsl(0, 0%, 100%);
+  color:hsl(217, 19%, 35%);
+}
+
+.intro{
+  display: flex;
+}
+
+.name{
+  margin: 20px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.name span{
+  font-size: 13px;
+  font-weight: normal;
+  filter: opacity(50%);
+}
+
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.quote{
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  filter: opacity(70%);
+}
+
+
+@media only screen and (min-width:768px) {
+  .container{
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto;
+  }
+
+  [class*="box"]{
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .box1{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+  }
+
+  .box2{
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .box3{
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    color:hsl(217, 19%, 35%);
+  }
+
+  .box4{
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+  }
+
+  .box5{
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 2;
+    color:hsl(217, 19%, 35%);
+  }
+}

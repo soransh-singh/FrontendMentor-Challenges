@@ -1,0 +1,35 @@
+.main{
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &--body{
+    max-width: 400px;
+    margin: 0 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    border-radius: 8px;
+  }
+}
+
+.image img{
+  border-radius: 8px 8px 0 0;
+}
+
+.victor{
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  bottom: 48px;
+  left: calc(50% - 48px);
+  border: solid 5px #fff;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  border-top: solid 1px hsl(0, 0%, 79%);
+}
