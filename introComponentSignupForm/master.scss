@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 100%, 74%) ;
+  background-image: url("./images/bg-intro-mobile.png");
+  background-size: contain;
+}
+
+.content{
+  padding: 2rem 1rem;
+  text-align: center;
+  h1{
+    padding: 0 1.5rem;
+  }
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner{
+  background-color: hsl(248, 32%, 49%);
+  width: min(90%,450px);
+  margin: 1rem auto;
+  font-weight: lighter;
+  padding: 1rem 3rem;
+  border-radius: .5rem;
+  text-align: center;
+  span{
+    font-weight:700;
+  }
+}
+
+.form{
+  padding: 2rem .5rem;
+  width: min(90%,450px);
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: .5rem;
+
+  input{
+    padding: 1rem 1rem;
+    margin: 0 1rem;
+    margin-top: 1rem;
+    border: solid hsl(246, 25%, 77%) 2px;
+    border-radius: .25rem;
+    font-weight: 600;
+  }
+
+  input:focus,
+  input:active{
+    outline: none;
+    border: solid hsl(249, 10%, 26%)  2px;
+  }
+
+  .error__input
+  {
+    color: hsl(0, 100%, 74%);
+    border: solid hsl(0, 100%, 74%) 2px;
+  }
+
+  .btn{
+    margin: 0 1rem;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    margin: .5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: solid hsl(154, 59%, 51%) 2px;
+    border-radius: .25rem;
+    text-transform: uppercase;
+    transition: background-color 0.4 0 linear;
+  }
+
+  .btn:hover{
+    background-color: hsl(154, 59%, 71%);
+    cursor: pointer;
+  }
+  .btn:focus{
+    outline: none;
+  }
+
+  .consent{
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    padding: .5rem;
+    span{
+      color: hsl(0, 100%, 74%);
+      font-weight: 700;
+    }
+  }
+
+  p{
+    margin: 0 1rem;
+    font-size: .75rem;
+  }
+
+  .error{
+    font-size: .75rem;
+    color: hsl(0, 100%, 74%);
+    text-align: right;
+  }
+}
+
+
+@media(min-width: 800px){
+  body{
+    background-image: url("./images/bg-intro-desktop.png");
+  }
+
+  .main{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    flex-direction: row;
+  }
+  .main>*{
+    width: 100%;
+  }
+  .content{
+    padding: 2rem 3rem;
+    text-align: left;
+    h1{
+      padding: 0;
+      font-size: 2.5rem;
+    }
+
+  }
+
+}

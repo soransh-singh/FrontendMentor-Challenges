@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  background-color: #ff7a7a;
+  background-image: url("./images/bg-intro-mobile.png");
+  background-size: contain;
+}
+
+.content {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.content h1 {
+  padding: 0 1.5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  background-color: #6055a5;
+  width: min(90%, 450px);
+  margin: 1rem auto;
+  font-weight: lighter;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.banner span {
+  font-weight: 700;
+}
+
+.form {
+  padding: 2rem 0.5rem;
+  width: min(90%, 450px);
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.form input {
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+  margin-top: 1rem;
+  border: solid #b9b6d3 2px;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+.form input:focus,
+.form input:active {
+  outline: none;
+  border: solid #3e3c49 2px;
+}
+.form .error__input {
+  color: #ff7a7a;
+  border: solid #ff7a7a 2px;
+}
+.form .btn {
+  margin: 0 1rem;
+  background-color: #38cc8c;
+  color: white;
+  margin: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-bottom: solid #38cc8c 2px;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  transition: background-color 0.4 0 linear;
+}
+.form .btn:hover {
+  background-color: #89e1bb;
+  cursor: pointer;
+}
+.form .btn:focus {
+  outline: none;
+}
+.form .consent {
+  color: #b9b6d3;
+  text-align: center;
+  padding: 0.5rem;
+}
+.form .consent span {
+  color: #ff7a7a;
+  font-weight: 700;
+}
+.form p {
+  margin: 0 1rem;
+  font-size: 0.75rem;
+}
+.form .error {
+  font-size: 0.75rem;
+  color: #ff7a7a;
+  text-align: right;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-image: url("./images/bg-intro-desktop.png");
+  }
+
+  .main {
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    flex-direction: row;
+  }
+
+  .main > * {
+    width: 100%;
+  }
+
+  .content {
+    padding: 2rem 3rem;
+    text-align: left;
+  }
+  .content h1 {
+    padding: 0;
+    font-size: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=master.css.map */
