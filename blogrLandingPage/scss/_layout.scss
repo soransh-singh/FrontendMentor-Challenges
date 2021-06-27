@@ -1,0 +1,110 @@
+.hero{
+  display: grid;
+  min-height: max(600px, 90vh);
+  place-items: center;
+  border-bottom-left-radius: 15%;
+}
+
+.design{
+  margin: .5rem;
+  margin-top: 3rem;
+  @media (min-width: 700px){
+
+    .block{
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      overflow: hidden;
+      &>*{
+        width: 100%;
+      }
+      picture{
+        margin-right: -15%;
+      }
+      .content{
+        padding-left: 10%;
+        h2,p{
+          margin-left:0;
+        }
+      }
+
+    }
+  }
+}
+
+.infra{
+  .image{
+  margin-bottom: -200px;
+  filter: drop-shadow(5px 0 8px #000);
+  }
+  .content{
+    padding-top: 200px;
+    padding-bottom: 5rem;
+    border-radius: 0 5rem;
+  }
+  @media (min-width: 700px){
+    display: flex;
+    align-items: center;
+    border-radius: 0 5rem;
+    &>*{
+      width: 100%;
+    }
+    .image{
+    margin-bottom: -100px;
+    margin-top: -50px;
+    }
+    .content{
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 10%;
+    }
+  }
+}
+
+.tool{
+  @media(min-width: 700px){
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    &>*{
+      width: 100%;
+    }
+    picture{
+      margin-left: -17%;
+      width: 120%;
+    }
+    .content{
+      padding-left: 8%;
+      padding-right: 10%;
+    }
+  }
+}
+
+.footer{
+  margin-top: 4rem;
+  border-top-right-radius: 5rem;
+  .logo{
+    padding: 5rem 0;
+  }
+  .list{
+    padding: 2rem 0;
+    &__item{
+      padding: .3rem 0;
+      cursor: pointer;
+      &:hover{
+        color: white;
+      }
+    }
+  }
+  @media (min-width: 700px){
+    padding-top: 2rem;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    .logo{
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.hero{
+  background-image: url("./../images/bg-pattern-intro.svg");
+  background-repeat: no-repeat;
+  background-size: 300%;
+  background-position: -350px -400px;
+  @media (min-width: 700px){
+    background-size: auto;
+    background-position: -600px -1300px;
+  }
+}
+
+.infra{
+  .content{
+    background-image: url("./../images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center -200px;
+    @media (min-width: 700px){
+      background-image:none;
+    }
+  }
+  @media (min-width: 700px){
+    background-image: url("./../images/bg-pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: -175px -500px;
+  }
+}

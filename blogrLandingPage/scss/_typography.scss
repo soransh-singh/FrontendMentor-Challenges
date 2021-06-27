@@ -1,0 +1,148 @@
+@mixin btn($clr, $bg-clr){
+  display: inline-block;
+  margin: 1rem;
+  padding: .5rem 1rem;
+  background: $bg-clr;
+  color: $clr;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  border: solid 2px $clr;
+  border-radius: 1.25rem;
+  transition: all 0.2s linear;
+}
+
+@mixin hover($clr, $bg-clr){
+  background: $bg-clr;
+  color: $clr;
+  border: solid 2px $clr;
+}
+
+@mixin heading($clr){
+  color: $clr;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+@mixin paragraph($clr){
+  color: $clr;
+  line-height: 1.5rem;
+  width: 90%;
+  margin: auto;
+}
+body{
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  @media(min-width: 700px){
+    text-align: left;
+  }
+}
+
+.header{
+ background-color: hsl(353, 100%, 62%);
+ }
+
+ .hero{
+   background: hsl(353, 100%, 62%);
+   .content{
+     text-align: center;
+     h1{
+       color: hsl(0, 0%, 100%);
+       font-size: 2.4rem;
+       padding: .5rem 1rem;
+     }
+     p{
+       width: 70%;
+       margin: auto;
+       color: hsl(0, 0%, 100%);
+     }
+   }
+ }
+
+ .btn-free{
+   @include btn(hsl(353, 100%, 62%),hsl(0, 0%, 100%));
+   &:hover{
+     @include hover(hsl(0, 0%, 100%),hsl(353, 100%, 62%));
+   }
+ }
+
+ .btn-more{
+   @include btn(hsl(0, 0%, 100%),hsl(353, 100%, 62%));
+   &:hover{
+     @include hover(hsl(353, 100%, 62%),hsl(0, 0%, 100%));
+     border: solid 2px hsl(0, 0%, 100%);
+   }
+ }
+
+ .design{
+   h1{
+     @include heading(hsl(237, 17%, 21%));
+     font-weight: 700;
+     @media (min-width: 700px){
+       text-align: center;
+     }
+   }
+   .block{
+     h2{
+       @include heading(hsl(237, 17%, 21%));
+     }
+     p{
+      @include paragraph(hsl(237, 23%, 32%));
+     }
+   }
+ }
+
+ .infra{
+   .content{
+     background: hsl(237, 17%, 21%);
+     h1{
+       @include heading(hsl(0, 0%, 100%));
+     }
+     p{
+       @include paragraph(hsla(0, 0%, 100%, 0.7));
+     }
+   }
+   @media (min-width: 700px){
+     background: hsl(237, 17%, 21%);
+     .content{
+       background-color: transparent;
+       h1{
+         margin-left: 0;
+       }
+       p{
+         margin-left: 0;
+       }
+     }
+   }
+ }
+
+.tool{
+  .content{
+    h2{
+      @include heading(hsl(237, 17%, 21%));
+
+    }
+    p{
+      @include paragraph(hsl(237, 23%, 32%));
+    }
+    @media (min-width: 700px){
+      h2{
+        margin-left: 0;
+
+      }
+      p{
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.footer{
+  font-family: 'Ubuntu', sans-serif;
+  background: hsl(240, 10%, 16%);
+  color: hsl(240, 2%, 79%);
+  strong{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+  }
+}

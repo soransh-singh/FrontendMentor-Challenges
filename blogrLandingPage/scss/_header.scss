@@ -1,0 +1,137 @@
+header{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 1rem 10%;
+}
+
+.nav__link, .nav__list{
+  font-weight: 600;
+}
+
+.nav__link--item{
+  font-weight: 600;
+  color: hsl(240, 2%, 49%);
+  &>li{
+    padding: .5rem 0;
+    cursor: pointer;
+  }
+}
+
+
+@media(max-width: 700px){
+  header{
+    justify-content: space-between;
+  }
+  nav{
+    position: absolute;
+    top: 100px;
+    width: 80%;
+    background: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: .5rem;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 0.4s linear;
+  }
+
+  .nav--open{
+    opacity: 1;
+    transform: none;
+  }
+
+
+  .nav__list + .nav__list{
+    padding: 2rem 0;
+  }
+  .nav__list--item + .nav__list--item{
+    padding-top: 1rem ;
+  }
+
+  .nav__link::after{
+    content: " " url("./../images/icon-arrow-dark.svg");
+  }
+
+
+  .nav__link--item{
+    background: #eee;
+    padding: 1rem;
+    text-align: center;
+    border-radius: .5rem;
+
+    display: none;
+  }
+
+  .nav__link--open{
+    display: block
+  }
+}
+
+@media (min-width:700px + 1){
+  .menu__btn{
+    display: none;
+  }
+  nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img{
+    padding-right: 1rem;
+  }
+
+  .nav__list{
+    display: flex;
+    & + &{
+      padding-left: 1rem;
+    }
+    &--item + &--item{
+      padding-left: calc(1rem + 2vh);
+    }
+  }
+
+  .nav__list--item{
+    position: relative;
+  }
+
+  .signup{
+    background: hsl(0, 0%, 100%);
+    padding: .5rem 1rem;
+    border-radius: 1.5rem;
+    color: hsl(356, 100%, 66%);
+    border: solid 2px hsl(0, 0%, 100%);
+    font-weight: 700;
+    transition: all 0.2s linear;
+
+    &:hover{
+        background: hsl(356, 100%, 66%);
+        color: hsl(0, 0%, 100%);
+    }
+  }
+
+  .nav__link, .login{
+    color: white;
+  }
+
+  .nav__link::after{
+    content: " " url("./../images/icon-arrow-light.svg");
+  }
+
+  .nav__link--item{
+    position: absolute;
+    background: white;
+    padding: 1rem;
+    text-align: left;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 8px #666;
+    display: none;
+  }
+
+  .nav__link--open{
+    display: block
+  }
+
+}
