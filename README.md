@@ -10,89 +10,29 @@ This repo is made for doing frontend Mentor Challenges.
 
 ## challenges
 
-- ### Single Price Component
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### Profile Card
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### Social Proof
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### Testimonial Grid Section
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### Base Apparel
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### huddle Landing Page Feature Blocks
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### huddle Landing Page
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### ping Coming Soon Page
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### social Media Dashboard
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### pricing Component With Toggle
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### coding Bootcamp Slider
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### faq Accordion Card
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### four Card Feature Section
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### fylo Dark Theme Landing Page
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### fylo Landing Page
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### loopstudios Landing  
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### 3 Column Preview Card
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### article Preview
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### clipboard Landing Page
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### intro Component Signup Form
-[Live Demo]()
-[Challwnge Hub]()
-
-- ### Blogr Landing Page
-[Live Demo]()
-[Challwnge Hub]()
+| Title         | Challenge Hub | Live demo | code |
+|:-------------:||:------------:||:--------:||:---:|
+|### Single Price Component|[challenge Hub]()| [Live Demo]()| [code]()|
+|### Profile Card| [challenge Hub]()| [Live Demo]()| [code]()|
+|### Social Proof|[challenge Hub]()| [Live Demo]()| [code]()|
+|### Testimonial Grid Section| [challenge Hub]()| [Live Demo]()| [code]()|
+|### Base Apparel| [challenge Hub]()| [Live Demo]()| [code]()|
+|### huddle Landing Page Feature Blocks| [challenge Hub]()| [Live Demo]()| [code]()|
+|### huddle Landing Page| [challenge Hub]()| [Live Demo]()| [code]()|
+|### ping Coming Soon Page| [challenge Hub]()| [Live Demo]()| [code]()|
+|### social Media Dashboard| [challenge Hub]()| [Live Demo]()| [code]()|
+|### pricing Component With Toggle| [challenge Hub]()| [Live Demo]()| [code]()|
+|### coding Bootcamp Slider| [challenge Hub]()| [Live Demo]()| [code]()|
+|### faq Accordion Card| [challenge Hub]()| [Live Demo]()| [code]()|
+|### four Card Feature Section| [challenge Hub]()| [Live Demo]()| [code]()|
+|### fylo Dark Theme Landing Page| [challenge Hub]()| [Live Demo]()| [code]()|
+|### fylo Landing Page| [challenge Hub]()| [Live Demo]()| [code]()|
+|### loopstudios Landing| [challenge Hub]()| [Live Demo]()| [code]()|
+|### 3 Column Preview Card| [challenge Hub]()| [Live Demo]()| [code]()|
+|### article Preview| [challenge Hub]()| [Live Demo]()| [code]()|
+|### clipboard Landing Page| [challenge Hub]()| [Live Demo]()| [code]()|
+|### intro Component Signup Form| [challenge Hub]()| [Live Demo]()| [code]()|
+|### Blogr Landing Page| [challenge Hub]()| [Live Demo]()| [code]()|
 
 
 ## Author:
