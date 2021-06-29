@@ -12,7 +12,7 @@ This repo is made for doing frontend Mentor Challenges.
 
  |   Title          |   Challenge Hub  |   Live demo  |   code  |  
  |   :-------------: | :------------: | :--------: | :---: |  
- |   Single Price Component |  [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/singlePriceGridComponent/index.html) |   [code]() |  
+ |   Single Price Component |  [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/singlePriceGridComponent/index.html) |   [code](./3ColumnPreviewCard) |  
  |   Profile Card |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/profileCardComponent/index.html) |   [code]() |  
  |   Social Proof |  [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/socialProof/index.html) |   [code]() |  
  |  Testimonial Grid Section |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/testimonialsGridSection/index.html) |   [code]() |  
