@@ -11,28 +11,28 @@ This repo is made for doing frontend Mentor Challenges.
 ## challenges
 
  |   Title          |   Challenge Hub  |   Live demo  |   code  |  
- |   :-------------: |   |  :------------: |   |  :--------: |   |  :---: |  
- |   ### Single Price Component |  [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |   ### Profile Card |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |   ### Social Proof |  [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### Testimonial Grid Section |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### Base Apparel |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### huddle Landing Page Feature Blocks |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### huddle Landing Page |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### ping Coming Soon Page |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### social Media Dashboard |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### pricing Component With Toggle |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### coding Bootcamp Slider |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### faq Accordion Card |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### four Card Feature Section |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### fylo Dark Theme Landing Page |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### fylo Landing Page |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### loopstudios Landing |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### 3 Column Preview Card |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### article Preview |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### clipboard Landing Page |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### intro Component Signup Form |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
- |  ### Blogr Landing Page |   [challenge Hub]() |   [Live Demo]() |   [code]() |  
+ |   :-------------: | :------------: | :--------: | :---: |  
+ |   Single Price Component |  [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/singlePriceGridComponent/index.html) |   [code]() |  
+ |   Profile Card |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/profileCardComponent/index.html) |   [code]() |  
+ |   Social Proof |  [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/socialProof/index.html) |   [code]() |  
+ |  Testimonial Grid Section |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/testimonialsGridSection/index.html) |   [code]() |  
+ |  Base Apparel |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/baseApparel/index.html) |   [code]() |  
+ |  huddle Landing Page Feature Blocks |   [challenge Hub](https://frontend-mentor-challenges-self.vercel.app/huddleLandingPageFeatureBlocks/index.html) |   [Live Demo]() |   [code]() |  
+ |  huddle Landing Page |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/huddleLandingPage/index.html) |   [code]() |  
+ |  ping Coming Soon Page |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/pingComingSoonPage/index.html) |   [code]() |  
+ |  social Media Dashboard |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/socialMediaDashboard/index.html) |   [code]() |  
+ |  pricing Component With Toggle |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/pricingComponentWithToggle/index.html) |   [code]() |  
+ |  coding Bootcamp Slider |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/codingBootcampSlider/index.html) |   [code]() |  
+ |  faq Accordion Card |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/faqAccordionCard/index.html) |   [code]() |  
+ |  four Card Feature Section |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/fourCardFeatureSection/index.html) |   [code]() |  
+ |  fylo Dark Theme Landing Page |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/fyloDarkThemeLandingPage/index.html) |   [code]() |  
+ |  fylo Landing Page |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/fyloLandingPage/index.html) |   [code]() |  
+ |  loopstudios Landing |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/loopstudiosLandingPage/index.html) |   [code]() |  
+ |  3 Column Preview Card |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/3ColumnPreviewCard/index.html) |   [code]() |  
+ |  article Preview |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/articlePreview/index.html) |   [code]() |  
+ |  clipboard Landing Page |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/clipboardLandingPage/index.html) |   [code]() |  
+ | intro Component Signup Form |   [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/introComponentSignupForm/index.html) |   [code]() |  
+ | Blogr Landing Page | [challenge Hub]() |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/blogrLandingPage/index.html) |   [code]() |  
 
 
 ## Author:
