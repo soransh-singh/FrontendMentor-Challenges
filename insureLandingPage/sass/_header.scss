@@ -31,6 +31,14 @@ header>*{
   }
 }
 
+.plan__link{
+  border: solid 2px var(--vliGray);
+  @media(min-width: 700px){
+    border-color: var(--vdrViolet);
+    padding: .5rem 1rem;
+  }
+}
+
 .nav{
 
   @media(max-width: 699px){
