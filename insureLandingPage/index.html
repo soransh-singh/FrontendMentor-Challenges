@@ -8,6 +8,10 @@
 
   <title>Frontend Mentor | Insure landing page</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/master.css">
   <script src="./js/main.js" charset="utf-8"></script>
 
@@ -19,17 +23,17 @@
 </head>
   <body>
     <header>
-      <div class="">
-        <img src="./images/logo.svg" alt="">
-        <img src="./images/icon-hamburger.svg" alt="">
+      <div class="header__head">
+        <img src="./images/logo.svg" alt="" class="logo">
+        <img src="./images/icon-hamburger.svg" alt="" class="menu__btn">
       </div>
       <!-- close: ./images/icon-close.svg -->
-      <nav>
+      <nav class="nav nav--open">
         <ul class="nav__list">
           <li class="nav__link">How we work</li>
           <li class="nav__link">Blog</li>
           <li class="nav__link">Account</li>
-          <li class="nav__link">View plans</li>
+          <li class="nav__link plan__link">View plans</li>
         </ul>
       </nav>
     </header>

@@ -1,0 +1,142 @@
+/*
+## Colors
+
+### Primary
+
+- Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
+
+### Neutral
+
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+*/
+:root {
+  --drViolet: hsl(256, 26%, 20%);
+  --grBlue: hsl(216, 30%, 68%);
+  --vdrViolet: hsl(270, 9%, 17%);
+  --dgrViolet: hsl(273, 4%, 51%);
+  --vliGray: hsl(0, 0%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+h1, h2 {
+  font-family: "DM Serif Display", serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  cursor: pointer;
+}
+
+.plan__link {
+  border: solid 2px var(--vliGray);
+}
+@media (min-width: 700px) {
+  .plan__link {
+    border-color: var(--vdrViolet);
+    padding: 0.5rem 1rem;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  position: relative;
+}
+@media (min-width: 700px) {
+  header {
+    padding: 1rem 10%;
+  }
+}
+
+header > * {
+  width: 100%;
+}
+
+.header__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 699px) {
+  .header__head {
+    position: fixed;
+    top: 0rem;
+    background: inherit;
+    padding: 1rem 10%;
+  }
+}
+
+@media (min-width: 700px) {
+  .menu__btn {
+    display: none;
+  }
+}
+
+@media (max-width: 699px) {
+  .nav {
+    position: fixed;
+    top: 4rem;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--vdrViolet);
+    background-image: url("./../images/bg-pattern-mobile-nav.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 87%;
+    color: var(--vliGray);
+    text-transform: uppercase;
+    text-align: center;
+    display: none;
+  }
+  .nav--open {
+    display: block;
+  }
+  .nav__link {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: calc(1.5rem + 1vw);
+  }
+}
+@media (min-width: 700px) {
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav__link {
+    margin: calc(.25rem + 1vw);
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    color: var(--drViolet);
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+}
+
+/*# sourceMappingURL=master.css.map */

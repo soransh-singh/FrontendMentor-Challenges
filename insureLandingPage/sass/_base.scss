@@ -1,0 +1,64 @@
+/*
+## Colors
+
+### Primary
+
+- Dark Violet: hsl(256, 26%, 20%)
+- Grayish Blue: hsl(216, 30%, 68%)
+
+### Neutral
+
+- Very Dark Violet: hsl(270, 9%, 17%)
+- Dark Grayish Violet: hsl(273, 4%, 51%)
+- Very Light Gray: hsl(0, 0%, 98%)
+
+*/
+
+:root{
+  --drViolet: hsl(256, 26%, 20%);
+  --grBlue: hsl(216, 30%, 68%);
+
+  --vdrViolet: hsl(270, 9%, 17%);
+  --dgrViolet: hsl(273, 4%, 51%);
+  --vliGray: hsl(0, 0%, 98%);
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+h1,h2{
+  font-family: 'DM Serif Display', serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  color: inherit;
+  display: inline-block;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+li{
+  cursor: pointer;
+}
+
+.plan__link{
+  border: solid 2px var(--vliGray);
+  @media(min-width: 700px){
+    border-color: var(--vdrViolet);
+    padding: .5rem 1rem;
+  }
+}

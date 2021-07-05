@@ -1,0 +1,74 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  background: hsl(0, 0%, 100%);
+  position: relative;
+  @media(min-width: 700px){
+    padding: 1rem 10%;
+  }
+}
+
+header>*{
+  width: 100%;
+}
+
+.header__head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  @media(max-width: 699px){
+    position: fixed;
+    top: 0rem;
+    background: inherit;
+    padding: 1rem 10%;
+  }
+}
+
+.menu__btn{
+  @media(min-width: 700px){
+    display: none;
+  }
+}
+
+.nav{
+
+  @media(max-width: 699px){
+    position: fixed;
+    top: 4rem;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--vdrViolet);
+    background-image: url("./../images/bg-pattern-mobile-nav.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 87%;
+    color: var(--vliGray);
+    text-transform: uppercase;
+    text-align: center;
+    display: none;
+    &--open{
+      display: block;
+    }
+
+    &__link{
+      margin: 1rem;
+      padding: .5rem;
+      font-size: calc(1.5rem + 1vw);
+    }
+  }
+  @media(min-width: 700px){
+    &__list{
+      display: flex;
+      justify-content: space-between;
+    }
+    &__link{
+      margin: calc(.25rem + 1vw);
+      padding-top: .5rem;
+      font-size: 1rem;
+      color: var(--drViolet);
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+  }
+}
