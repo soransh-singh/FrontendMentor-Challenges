@@ -281,6 +281,7 @@ picture{
     align-items: center;
     text-align: left;
     background-image: url("./../images/bg-pattern-how-we-work-desktop.svg");
+    background-size: auto 100%;
   }
   .banner > * {
     width: 100%;
@@ -306,6 +307,62 @@ picture{
   padding: 0.5rem 1rem;
   border: solid 2px white;
   margin: 0 auto;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 7rem;
+  padding-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px rgba(43, 39, 47, 0.2);
+  margin-bottom: 2rem;
+}
+@media (min-width: 700px) {
+  .footer__social {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.social__links {
+  display: flex;
+  justify-content: center;
+}
+.social__links--list + .social__links--list {
+  margin-left: 1.5rem;
+}
+
+.list__heading {
+  color: var(--dgrViolet);
+  font-weight: 700;
+}
+
+@media (min-width: 700px) {
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.footer__link--item {
+  font-weight: 700;
+  color: var(--vdrViolet);
+}
+.footer__link--item + .footer__link--item {
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=master.css.map */
