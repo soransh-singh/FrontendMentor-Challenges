@@ -39,6 +39,17 @@ li {
   cursor: pointer;
 }
 
+.logo {
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.logo:hover {
+  transform: scale(1.2);
+}
+.logo:active {
+  transform: scale(0.9);
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -78,12 +89,34 @@ header > * {
 }
 
 .plan__link {
+  color: var(--vliGray);
   border: solid 2px var(--vliGray);
+}
+.plan__link:hover {
+  background: var(--vliGray);
+  color: var(--vdrViolet);
+  border: solid 2px var(--vdrViolet);
+}
+.plan__link:active {
+  color: var(--vliGray);
+  border: solid 2px var(--vliGray);
+  background: transparent;
 }
 @media (min-width: 700px) {
   .plan__link {
-    border-color: var(--vdrViolet);
+    color: var(--vdrViolet);
+    border: solid 2px var(--vdrViolet);
     padding: 0.5rem 1rem;
+  }
+  .plan__link:hover {
+    background: var(--vdrViolet);
+    color: var(--vliGray);
+    border: solid 2px var(--vliGray);
+  }
+  .plan__link:active {
+    color: var(--vdrViolet);
+    border: solid 2px var(--vdrViolet);
+    background: transparent;
   }
 }
 
@@ -124,6 +157,21 @@ header > * {
     color: var(--drViolet);
     font-weight: 700;
     letter-spacing: 1px;
+  }
+  .nav__link--effect {
+    transition: all 0.2s linear;
+    cursor: pointer;
+    transition: all 0.2s linear;
+  }
+  .nav__link--effect:hover {
+    transform: scale(1.2);
+  }
+  .nav__link--effect:active {
+    transform: scale(0.9);
+  }
+  .nav__link--effect:hover {
+    color: var(var(--drViolet));
+    text-decoration: underline;
   }
 }
 
@@ -214,10 +262,45 @@ picture{
 }
 
 .intro__btn {
-  color: white;
-  border: solid 2px white;
+  color: var(--vliGray);
+  border: solid 2px var(--vliGray);
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
   padding: 0.5rem 1rem;
   margin-top: 2rem;
+}
+.intro__btn:hover {
+  background: var(--vliGray);
+  color: var(--vdrViolet);
+  border: solid 2px var(--vdrViolet);
+}
+.intro__btn:active {
+  color: var(--vliGray);
+  border: solid 2px var(--vliGray);
+  background: transparent;
+}
+
+.bg-img {
+  display: none;
+}
+@media (min-width: 700px) {
+  .bg-img {
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+  }
+}
+
+.bg-img-right {
+  top: 0;
+  right: 0;
+}
+
+.bg-img-left {
+  bottom: -15rem;
+  left: 0;
 }
 
 .benefit {
@@ -245,10 +328,26 @@ picture{
   .benefit__container {
     flex-direction: row;
   }
+  .benefit__container > * {
+    width: 100%;
+  }
 }
 
 .benefit__item {
   padding: 1rem;
+}
+@media (min-width: 700px) {
+  .benefit__item {
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+  .benefit__item:hover {
+    box-shadow: -2px 2px 8px 2px rgba(34, 34, 43, 0.8);
+    transform: translate(-2rem, -2rem) scale(1.1);
+  }
+  .benefit__item:active {
+    transform: scale(0.9);
+  }
 }
 
 .benefit__item > h2 {
@@ -305,8 +404,20 @@ picture{
   display: block;
   max-width: 10rem;
   padding: 0.5rem 1rem;
-  border: solid 2px white;
+  color: var(--vliGray);
+  border: solid 2px var(--vliGray);
+  cursor: pointer;
   margin: 0 auto;
+}
+.banner__link:hover {
+  background: var(--vliGray);
+  color: var(--vdrViolet);
+  border: solid 2px var(--vdrViolet);
+}
+.banner__link:active {
+  color: var(--vliGray);
+  border: solid 2px var(--vliGray);
+  background: transparent;
 }
 
 footer {
@@ -316,6 +427,14 @@ footer {
   padding-top: 2rem;
   text-align: center;
   text-transform: uppercase;
+  position: relative;
+}
+
+.footer__picture {
+  position: absolute;
+  left: -10%;
+  top: 0;
+  z-index: -1;
 }
 
 .footer__social {
@@ -338,10 +457,29 @@ footer {
 .social__links--list + .social__links--list {
   margin-left: 1.5rem;
 }
+.social__links--list--image {
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.social__links--list--image:hover {
+  transform: scale(1.5);
+}
+.social__links--list--image:active {
+  transform: scale(0.8);
+}
 
 .list__heading {
   color: var(--dgrViolet);
   font-weight: 700;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  cursor: default;
+}
+.list__heading:hover {
+  transform: scale(1.2);
+}
+.list__heading:active {
+  transform: scale(0.9);
 }
 
 @media (min-width: 700px) {
@@ -360,6 +498,19 @@ footer {
 .footer__link--item {
   font-weight: 700;
   color: var(--vdrViolet);
+  transition: all 0.2s linear;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.footer__link--item:hover {
+  transform: scale(1.2);
+}
+.footer__link--item:active {
+  transform: scale(0.9);
+}
+.footer__link--item:hover {
+  color: var(var(--drViolet));
+  text-decoration: underline;
 }
 .footer__link--item + .footer__link--item {
   margin-top: 1rem;

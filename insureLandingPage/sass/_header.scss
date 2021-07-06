@@ -33,9 +33,9 @@ header>*{
 }
 
 .plan__link{
-  border: solid 2px var(--vliGray);
+  @include btn--effect(var(--vliGray), var(--vdrViolet));
   @media(min-width: 700px){
-    border-color: var(--vdrViolet);
+    @include btn--effect( var(--vdrViolet), var(--vliGray));
     padding: .5rem 1rem;
   }
 }
@@ -64,6 +64,7 @@ header>*{
       margin: 1rem;
       padding: .5rem;
       font-size: calc(1.5rem + 1vw);
+
     }
   }
   @media(min-width: 700px){
@@ -78,6 +79,10 @@ header>*{
       color: var(--drViolet);
       font-weight: 700;
       letter-spacing: 1px;
+      &--effect{
+        @include scale--effect(1.2,0.9);
+        @include color--effect(var(--drViolet));
+      }
     }
   }
 }

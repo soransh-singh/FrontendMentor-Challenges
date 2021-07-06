@@ -33,6 +33,7 @@ This repo is made for doing frontend Mentor Challenges.
  |  clipboard Landing Page |   [challenge Hub](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9) |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/clipboardLandingPage/index.html) |   [code](./clipboardLandingPage) |  
  | intro Component Signup Form |   [challenge Hub](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/introComponentSignupForm/index.html) |   [code](./introComponentSignupForm) |  
  | Blogr Landing Page | [challenge Hub](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP) |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/blogrLandingPage/index.html) |   [code](./blogrLandingPage) |  
+ | Insure Landing Page | [challenge Hub](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8) |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/insureLandingPage/index.html) |   [code](./insureLandingPage) |  
 
 
 ## Author:

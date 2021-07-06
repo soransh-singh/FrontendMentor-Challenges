@@ -5,6 +5,14 @@ footer{
   padding-top: 2rem;
   text-align: center;
   text-transform: uppercase;
+  position: relative;
+}
+
+.footer__picture{
+  position: absolute;
+  left: -10%;
+  top: 0;
+  z-index: -1;
 }
 
 .footer__social{
@@ -24,11 +32,16 @@ footer{
   &--list + &--list{
     margin-left: 1.5rem;
   }
+  &--list--image{
+    @include scale--effect(1.5,0.8);
+  }
 }
 
 .list__heading{
   color: var(--dgrViolet);
   font-weight: 700;
+  @include scale--effect(1.2,0.9);
+  cursor: default;
 }
 
 .footer__links{
@@ -47,6 +60,8 @@ footer{
   &--item{
     font-weight: 700;
     color: var(--vdrViolet);
+    @include scale--effect(1.2,0.9);
+    @include color--effect(var(--drViolet));
   }
   &--item + &--item{
     margin-top: 1rem;

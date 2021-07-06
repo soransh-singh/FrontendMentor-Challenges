@@ -40,3 +40,43 @@ ul{
 li{
   cursor: pointer;
 }
+
+
+@mixin scale--effect($size-in, $size-out){
+  transition: all 0.2s linear;
+  cursor: pointer;
+  &:hover{
+    transform: scale($size-in);
+  }
+  &:active{
+    transform: scale($size-out);
+  }
+}
+
+@mixin color--effect($hr-clr){
+  transition: all 0.2s linear;
+  &:hover{
+    color: var($hr-clr);
+    text-decoration: underline;
+  }
+}
+
+@mixin btn--effect($pr-clr, $sec-clr){
+  color: $pr-clr;
+  border: solid 2px $pr-clr;
+  &:hover{
+    background: $pr-clr;
+    color: $sec-clr;
+    border: solid 2px $sec-clr;
+  }
+  &:active{
+    color: $pr-clr;
+    border: solid 2px $pr-clr;
+    background: transparent;
+  }
+
+}
+
+.logo{
+  @include scale--effect(1.2,0.9);
+}

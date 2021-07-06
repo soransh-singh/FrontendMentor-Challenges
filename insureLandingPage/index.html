@@ -30,9 +30,9 @@
       <!-- close: ./images/icon-close.svg -->
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__link">How we work</li>
-          <li class="nav__link">Blog</li>
-          <li class="nav__link">Account</li>
+          <li class="nav__link nav__link--effect">How we work</li>
+          <li class="nav__link nav__link--effect">Blog</li>
+          <li class="nav__link nav__link--effect">Account</li>
           <li class="nav__link plan__link">View plans</li>
         </ul>
       </nav>
@@ -52,6 +52,8 @@
 
         <a href="#" class="intro__btn">View plans</a>
       </div>
+      <img src="./images/bg-pattern-intro-right-desktop.svg" alt="" class="bg-img bg-img-right">
+      <img src="./images/bg-pattern-intro-left-desktop.svg" alt="" class="bg-img bg-img-left">
     </section>
 
     <section class="benefit">
@@ -87,13 +89,17 @@
     </section>
 
     <footer>
+      <picture class="footer__picture">
+        <source media="(min-width:700px)" srcset="./images/bg-pattern-footer-desktop.svg">
+        <img src="./images/bg-pattern-footer-mobile.svg" alt="" class="intro__image">
+      </picture>
       <div class="footer__social">
-        <div><img src="./images/logo.svg" alt="insure"></div>
+        <div><img src="./images/logo.svg" alt="insure" class="logo"></div>
         <ul class="social__links">
-          <li class="social__links--list"><img src="./images/icon-facebook.svg" alt=""></li>
-          <li class="social__links--list"><img src="./images/icon-twitter.svg" alt=""></li>
-          <li class="social__links--list"><img src="./images/icon-pinterest.svg" alt=""></li>
-          <li class="social__links--list"><img src="./images/icon-instagram.svg" alt=""></li>
+          <li class="social__links--list"><img src="./images/icon-facebook.svg" alt=""  class="social__links--list--image"></li>
+          <li class="social__links--list"><img src="./images/icon-twitter.svg" alt="" class="social__links--list--image"></li>
+          <li class="social__links--list"><img src="./images/icon-pinterest.svg" alt="" class="social__links--list--image"></li>
+          <li class="social__links--list"><img src="./images/icon-instagram.svg" alt="" class="social__links--list--image"></li>
         </ul>
       </div>
       <div class="footer__links">

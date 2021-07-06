@@ -75,8 +75,30 @@ picture{
 }
 
 .intro__btn{
-  color: white;
-  border: solid 2px white;
+  @include btn--effect(var(--vliGray), var(--vdrViolet));
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
   padding: .5rem 1rem;
   margin-top: 2rem;
+}
+
+.bg-img{
+  display: none;
+  @media(min-width: 700px){
+    display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+  }
+}
+
+.bg-img-right{
+  top: 0;
+  right: 0;
+}
+
+.bg-img-left{
+  bottom: -15rem;
+  left: 0;
 }

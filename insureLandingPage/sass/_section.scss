@@ -18,11 +18,25 @@
   flex-direction: column;
   @media(min-width: 700px){
     flex-direction: row;
+    &>*{
+      width: 100%;
+    }
   }
 }
 
 .benefit__item{
   padding: 1rem;
+  @media(min-width: 700px){
+    transition: all 0.3s linear;
+    cursor: pointer;
+    &:hover{
+      box-shadow: -2px 2px 8px 2px hsla(240, 12%, 15%, 0.8);
+      transform: translate(-2rem, -2rem) scale(1.1);
+    }
+    &:active{
+      transform: scale(0.9);
+    }
+  }
 }
 
 .benefit__item>h2{
@@ -75,6 +89,7 @@
   display: block;
   max-width: 10rem;
   padding: .5rem 1rem;
-  border: solid 2px hsl(0, 0%, 100%);
+  @include btn--effect(var(--vliGray), var(--vdrViolet));
+  cursor: pointer;
   margin: 0 auto;
 }
