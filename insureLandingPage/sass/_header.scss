@@ -3,6 +3,7 @@ header{
   justify-content: space-between;
   background: hsl(0, 0%, 100%);
   position: relative;
+  z-index: 2;
   @media(min-width: 700px){
     padding: 1rem 10%;
   }

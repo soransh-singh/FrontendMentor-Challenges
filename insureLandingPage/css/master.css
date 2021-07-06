@@ -8,6 +8,7 @@
 
 * {
   box-sizing: border-box;
+  cursor: default;
 }
 
 body {
@@ -43,6 +44,7 @@ header {
   justify-content: space-between;
   background: white;
   position: relative;
+  z-index: 2;
 }
 @media (min-width: 700px) {
   header {
@@ -171,8 +173,7 @@ picture{
 
 .intro__content {
   width: 100%;
-  margin: 4rem 0;
-  padding: 0 max(10%, 1rem);
+  padding: 4rem max(10%, 1rem);
   background-image: url("./../images/bg-pattern-intro-left-mobile.svg"), url("./../images/bg-pattern-intro-right-mobile.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right bottom;
@@ -217,6 +218,94 @@ picture{
   border: solid 2px white;
   padding: 0.5rem 1rem;
   margin-top: 2rem;
+}
+
+.benefit {
+  text-align: center;
+}
+@media (min-width: 700px) {
+  .benefit {
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.benefit__heading {
+  font-size: calc(2.5rem + 1vw);
+  letter-spacing: 2px;
+  color: var(--vdrViolet);
+}
+
+.benefit__container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 700px) {
+  .benefit__container {
+    flex-direction: row;
+  }
+}
+
+.benefit__item {
+  padding: 1rem;
+}
+
+.benefit__item > h2 {
+  color: var(--vdrViolet);
+  font-size: 2rem;
+}
+
+.benefit__item > p {
+  color: var(--dgrViolet);
+  font-weight: 700;
+}
+
+.banner {
+  margin: 2rem 1rem;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: var(--drViolet);
+  background-image: url("./../images/bg-pattern-how-we-work-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+@media (min-width: 700px) {
+  .banner {
+    margin: 2rem auto;
+    padding: 1rem 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    background-image: url("./../images/bg-pattern-how-we-work-desktop.svg");
+  }
+  .banner > * {
+    width: 100%;
+  }
+}
+
+.banner__heading {
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+@media (min-width: 700px) {
+  .banner__heading {
+    margin-left: 1rem;
+    font-size: calc(3rem + 0.2vw);
+  }
+}
+
+.banner__link {
+  text-align: center;
+  display: block;
+  max-width: 10rem;
+  padding: 0.5rem 1rem;
+  border: solid 2px white;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=master.css.map */

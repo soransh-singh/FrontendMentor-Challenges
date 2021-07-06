@@ -42,8 +42,7 @@ picture{
 
 .intro__content{
   width: 100%;
-  margin: 4rem 0;
-  padding: 0 max(10%, 1rem);
+  padding: 4rem max(10%, 1rem);
   background-image: url("./../images/bg-pattern-intro-left-mobile.svg") , url("./../images/bg-pattern-intro-right-mobile.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: left top, right bottom;
