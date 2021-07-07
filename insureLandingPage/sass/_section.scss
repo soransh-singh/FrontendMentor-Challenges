@@ -32,6 +32,9 @@
     &:hover{
       box-shadow: -2px 2px 8px 2px hsla(240, 12%, 15%, 0.8);
       transform: translate(-2rem, -2rem) scale(1.1);
+      backdrop-filter: blur(0.5);
+      border-radius: 5px;
+      background: hsla(0, 0%, 95%, 0.8);
     }
     &:active{
       transform: scale(0.9);
