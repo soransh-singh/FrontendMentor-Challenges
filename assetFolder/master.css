@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+header{
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project{
+  margin: 2rem 5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 320px;
+  box-shadow: 0px 2px 5px -2px hsla(0, 0%, 10%, 0.5);
+}
+
+.project__image{
+}
+
+.project__link{
+  display: flex;
+  justify-content: space-around;
+}
