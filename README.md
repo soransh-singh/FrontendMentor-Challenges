@@ -2,11 +2,31 @@
 
 ## Description:
 
-FrontendMentor is a cool website where you can improve your front-end coding skills by building real projects.
+Hello 👋, I am soransh, here you can see my solutions for Frontend Mentor projects
+
+## What is [Frontend Mentor](https://www.frontendmentor.io)?
+
+FrontendMentor is a cool website where you can improve your front-end coding skills by building real world projects.
 
 Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 169,485 developers building projects, reviewing code, and helping each other get better.
 
-This repo is made for doing frontend Mentor Challenges.
+## How it Works?
+
+### choose the challenge
+
+Pick a challenge that you feel comfortable with.
+
+### code the design
+
+Start the challenge and download the starter files. they provide all the files that you'll need to complete the challenge.
+
+### submit your solution
+
+Build the challenge and post the solution where you can get feedback on your code and design from other developers in the community.
+
+### give others feedback
+
+Help others by giving feedback on their solutions.
 
 ## challenges
 
