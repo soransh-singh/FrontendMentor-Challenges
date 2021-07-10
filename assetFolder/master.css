@@ -21,6 +21,10 @@ header{
   text-align: center;
 }
 
+.frontend__link{
+  color:  rgb(70,102,255);
+}
+
 section{
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +35,7 @@ section{
   margin: 2rem 3rem;
   padding: 1rem;
   border-radius: 5px;
-  max-width: 320px;
+  max-width: 360px;
   box-shadow: 0px 2px 5px -2px hsla(0, 0%, 10%, 0.5);
   transition: all 0.2s ease-in-out;
   display: flex;
@@ -43,7 +47,14 @@ section{
   box-shadow: 4px 10px 20px hsla(0, 0%, 10%, 0.3);
 }
 
+
+
 .project__image{
+
+}
+
+.project__name{
+  font-size: 1.25rem;
 }
 
 .project__description{
@@ -53,4 +64,20 @@ section{
 .project__link{
   display: flex;
   justify-content: space-around;
+}
+
+.project__link>a{
+  padding: .75rem;
+  width: 8rem;
+  background: white;
+  color: rgb(70,102,255);
+  border: solid 2px rgb(70,102,255);
+  text-align: center;
+  border-radius: 1.5rem;
+  transition: 0.2s all linear;
+}
+
+.project__link>a:hover{
+  background:  rgb(70,102,255);
+  color: white;
 }
