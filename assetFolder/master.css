@@ -4,6 +4,7 @@
 
 body{
   margin: 0;
+  font-family: 'Yatra One', cursive;
 }
 
 img{
@@ -27,14 +28,26 @@ section{
 }
 
 .project{
-  margin: 2rem 5rem;
+  margin: 2rem 3rem;
   padding: 1rem;
   border-radius: 5px;
   max-width: 320px;
   box-shadow: 0px 2px 5px -2px hsla(0, 0%, 10%, 0.5);
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.project:hover{
+  transform: translateY(-5%);
+  box-shadow: 4px 10px 20px hsla(0, 0%, 10%, 0.3);
 }
 
 .project__image{
+}
+
+.project__description{
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .project__link{
