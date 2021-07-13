@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/master.css">
+  <script src="./js/main.js"></script>
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="">
+
+        <div class="">
+          <p>Bill</p>
+          <input type="number" name="bill-amount" min="1">
+        </div>
+
+        <div class="">
+          <p>Select Tip %</p>
+          <div class="">
+            <button type="button" name="button">5%</button>
+            <button type="button" name="button">10%</button>
+            <button type="button" name="button">15%</button>
+            <button type="button" name="button">25%</button>
+            <button type="button" name="button">50%</button>
+            <input type="number" name="custom-tip" placeholder="Custom" min="1">
+          </div>
+        </div>
+
+        <div class="">
+          <p>Number of People</p>
+          <input type="number" name="people" min="1">
+        </div>
+    </div>
+
+      <div class="">
+
+        <div class="">
+          <div class="">
+            <p>Tip Amount</p>
+            <p>/ person</p>
+          </div>
+          <div class="tip-amount"></div>
+        </div>
+
+
+        <div class="">
+          <div class="">
+            <p>Total</p>
+            <p>/ person</p>
+          </div>
+          <div class="total"></div>
+        </div>
+
+        <button type="button" name="button">Reset</button>
+      </div>
+
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Soransh Singh</a>.
+  </div>
+</body>
+</html>
