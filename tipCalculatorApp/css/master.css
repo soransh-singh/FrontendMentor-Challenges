@@ -1,7 +1,48 @@
 *{
   box-sizing: border-box;
+  margin: 0;
 }
 
 body{
   font-family: 'Space Mono', monospace;
+  background-color: hsl(185, 41%, 84%);
+}
+
+button,input{
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  border-radius: .5rem;
+  outline: none;
+  border: none;
+}
+
+button{
+  padding: .5rem 0;
+}
+
+input{
+  color: hsl(172, 67%, 45%);
+  text-align: right;
+  padding: .25rem .5rem;
+  background-color: hsl(189, 41%, 97%);
+  width: 100%;
+}
+
+header{
+  text-align: center;
+  margin: 3rem 0;
+}
+
+main{
+  background: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.sec-percentage-btns{
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: calc(50% - .5rem) calc(50% - .5rem);
+  grid-template-rows: auto auto auto;
+  grid-gap: 1rem;
 }

@@ -22,33 +22,42 @@
   </style>
 </head>
 <body>
+  <header>
+    <img src="./images/logo.svg" alt="spliter">
+  </header>
   <main>
-    <div class="">
+    <div class="input-sec">
 
         <div class="">
           <p>Bill</p>
-          <input type="number" name="bill-amount" min="1">
+          <input
+            type="number"
+            id="amount"
+            name="bill-amount"
+            min="1"
+            placeholder="00.00"
+          >
         </div>
 
         <div class="">
           <p>Select Tip %</p>
-          <div class="">
-            <button type="button" name="button">5%</button>
-            <button type="button" name="button">10%</button>
-            <button type="button" name="button">15%</button>
-            <button type="button" name="button">25%</button>
-            <button type="button" name="button">50%</button>
-            <input type="number" name="custom-tip" placeholder="Custom" min="1">
+          <div class="sec-percentage-btns">
+            <button type="button" name="button" class="percentage-btn" data-percentage = "5">5%</button>
+            <button type="button" name="button" class="percentage-btn" data-percentage = "10">10%</button>
+            <button type="button" name="button" class="percentage-btn" data-percentage = "15">15%</button>
+            <button type="button" name="button" class="percentage-btn" data-percentage = "25">25%</button>
+            <button type="button" name="button" class="percentage-btn" data-percentage = "50">50%</button>
+            <input type="number" name="custom-tip" class="custom-percentage" placeholder="Custom" min="1">
           </div>
         </div>
 
         <div class="">
           <p>Number of People</p>
-          <input type="number" name="people" min="1">
+          <input type="number" name="people" id="no-people" value="1" min="1">
         </div>
     </div>
 
-      <div class="">
+      <div class="render-sec">
 
         <div class="">
           <div class="">
@@ -64,10 +73,10 @@
             <p>Total</p>
             <p>/ person</p>
           </div>
-          <div class="total"></div>
+          <div class="per-person"></div>
         </div>
 
-        <button type="button" name="button">Reset</button>
+        <button type="button" name="button" class="reset">Reset</button>
       </div>
 
   </main>
