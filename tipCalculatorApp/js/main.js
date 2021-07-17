@@ -12,7 +12,6 @@ window.addEventListener("load", ()=>{
   const perPersonRender = document.querySelector(".per-person")
 
   const reset = document.querySelector(".reset")
-  console.log(reset);
 
   let varAmount = 0
   let varNumOfPeople = 1
@@ -36,27 +35,23 @@ window.addEventListener("load", ()=>{
 
   amount.addEventListener("input", ()=>{
     varAmount = Number(amount.value)
-    console.log(varAmount)
     calc()
   })
 
   percBtns.forEach((btn) => {
     btn.addEventListener("click", ()=>{
       varTipPercentage = Number(btn.dataset["percentage"])
-      console.log(varTipPercentage)
       calc()
     })
   })
 
   customPerc.addEventListener("input", ()=>{
     varTipPercentage = Number(customPerc.value)
-    console.log(varTipPercentage)
     calc()
   })
 
   numOfPeople.addEventListener("input", ()=>{
     varNumOfPeople = Number(numOfPeople.value)
-    console.log(numOfPeople.value);
     calc()
   })
 

@@ -1,3 +1,11 @@
+:root{
+  --vdr-cyan: hsl(183, 100%, 15%);
+  --dgr-cyan: hsl(184, 14%, 56%);
+  --str-cyan: hsl(172, 67%, 45%);
+  --lgr-cyan: hsl(185, 41%, 84%);
+  --txt-clr-sec: hsl(0, 0%, 100%);
+}
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -21,11 +29,18 @@ button{
 }
 
 input{
+  -moz-appearance: textfield;
   color: hsl(172, 67%, 45%);
   text-align: right;
   padding: .25rem .5rem;
   background-color: hsl(189, 41%, 97%);
   width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 header{
@@ -35,14 +50,106 @@ header{
 
 main{
   background: hsl(0, 0%, 100%);
+  margin: 0 auto;
   padding: 1rem;
   border-radius: 1rem;
+  max-width: 600px;
+}
+
+.input-sec--para{
+  font-weight: 700;
+  color: var(--dgr-cyan);
+  margin-left: 1rem;
+  padding: 1rem 0;
 }
 
 .sec-percentage-btns{
-  padding: 2rem 0;
+  font-weight: 700;
+  margin: 0 1rem;
   display: grid;
-  grid-template-columns: calc(50% - .5rem) calc(50% - .5rem);
+  grid-template-columns: 50% 50%;
   grid-template-rows: auto auto auto;
+  justify-items: stretch;
+  justify-content: space-between;
   grid-gap: 1rem;
+}
+
+.percentage-btn{
+  font-weight: 700;
+  background: var(--vdr-cyan);
+  color: var(--txt-clr-sec);
+}
+
+.custom-percentage{
+  text-align: center;
+  font-weight: 700;
+}
+
+.render-sec{
+  margin: 1rem .5rem;
+  padding: 2rem 1rem;
+  background: hsl(183, 100%, 15%);
+  border-radius: 1rem;
+}
+
+.render-sec--display{
+  display: flex;
+  justify-content: space-between;
+}
+
+.render-sec--para{
+  color: var(--txt-clr-sec);
+  font-weight: 500;
+}
+
+.render-sec--person{
+  color: var(--dgr-cyan);
+  font-size: 14px;
+}
+
+.per-person,
+.tip-amount{
+  font-size: 2rem;
+  color: var(--str-cyan);
+  font-weight: 700;
+}
+
+.reset{
+  width: 100%;
+  margin-top: 1rem;
+  color: var(--vdr-cyan);
+  background: var(--str-cyan);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (min-width: 700px) {
+  header{
+    margin: 2.5rem 0;
+  }
+  main{
+    display: flex;
+    max-width: 900px;
+  }
+  main>*{
+    width: 100%;
+  }
+
+  .input-sec{
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .render-sec{
+    position: relative;
+  }
+
+  .render-sec--display + .render-sec--display{
+    margin-top: 2rem;
+  }
+  .reset{
+    position: absolute;
+    bottom: 1rem;
+    width: calc(100% - 2rem);
+  }
 }
