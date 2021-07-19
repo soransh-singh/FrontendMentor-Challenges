@@ -41,12 +41,15 @@ window.addEventListener("load", ()=>{
 
   amount.addEventListener("input", ()=>{
     amountErr.textContent = ""
+    amount.classList.remove("input-err")
     varAmount = Number(amount.value)
     if(varAmount > 0){
       calc()
     }else if(varAmount === 0){
+      amount.classList.add("input-err")
       amountErr.textContent = "Can't be Zero"
     }else{
+      amount.classList.add("input-err")
       amountErr.textContent = "Can't be negative"
     }
   })
@@ -65,13 +68,16 @@ window.addEventListener("load", ()=>{
 
   numOfPeople.addEventListener("input", ()=>{
     peopleErr.textContent = ""
+    numOfPeople.classList.remove("input-err")
     varNumOfPeople = Number(numOfPeople.value)
     calc()
     if(varNumOfPeople > 0){
       calc()
     }else if(varNumOfPeople === 0){
+      numOfPeople.classList.add("input-err")
       peopleErr.textContent = "Can't be Zero"
     }else{
+      numOfPeople.classList.add("input-err")
       peopleErr.textContent = "Can't be negative"
     }
   })
