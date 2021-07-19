@@ -11,6 +11,12 @@ window.addEventListener("load", ()=>{
   const tipAmountRender = document.querySelector(".tip-amount")
   const perPersonRender = document.querySelector(".per-person")
 
+  const amountErr = document.querySelector(".input-amount-err")
+  const peopleErr = document.querySelector(".input-people-err")
+
+  console.log(amountErr);
+  console.log(peopleErr);
+
   const reset = document.querySelector(".reset")
 
   let varAmount = 0
@@ -34,8 +40,15 @@ window.addEventListener("load", ()=>{
   //`${Math.round(total)}.${Math.}`
 
   amount.addEventListener("input", ()=>{
+    amountErr.textContent = ""
     varAmount = Number(amount.value)
-    calc()
+    if(varAmount > 0){
+      calc()
+    }else if(varAmount === 0){
+      amountErr.textContent = "Can't be Zero"
+    }else{
+      amountErr.textContent = "Can't be negative"
+    }
   })
 
   percBtns.forEach((btn) => {
@@ -51,8 +64,16 @@ window.addEventListener("load", ()=>{
   })
 
   numOfPeople.addEventListener("input", ()=>{
+    peopleErr.textContent = ""
     varNumOfPeople = Number(numOfPeople.value)
     calc()
+    if(varNumOfPeople > 0){
+      calc()
+    }else if(varNumOfPeople === 0){
+      peopleErr.textContent = "Can't be Zero"
+    }else{
+      peopleErr.textContent = "Can't be negative"
+    }
   })
 
   reset.addEventListener("click", ()=>{

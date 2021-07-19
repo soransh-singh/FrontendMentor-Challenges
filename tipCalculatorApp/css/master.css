@@ -1,14 +1,17 @@
 :root{
   --vdr-cyan: hsl(183, 100%, 15%);
   --dgr-cyan: hsl(184, 14%, 56%);
+  --dgr-cyan-2: hsl(186, 14%, 43%);
   --str-cyan: hsl(172, 67%, 45%);
   --lgr-cyan: hsl(185, 41%, 84%);
+  --lgr-cyan-2: hsl(189, 41%, 97%);
   --txt-clr-sec: hsl(0, 0%, 100%);
 }
 
 *{
   box-sizing: border-box;
   margin: 0;
+  cursor: default;
 }
 
 body{
@@ -20,12 +23,23 @@ button,input{
   font-family: 'Space Mono', monospace;
   font-size: 24px;
   border-radius: .5rem;
+  font-weight: 700;
   outline: none;
   border: none;
 }
 
+button:hover,
+input:hover{
+  cursor: pointer;
+}
+
 button{
   padding: .5rem 0;
+  border: 2px solid transparent;
+}
+
+button:focus{
+  border: 2px solid hsl(172, 67%, 45%);
 }
 
 input{
@@ -33,14 +47,24 @@ input{
   color: hsl(172, 67%, 45%);
   text-align: right;
   padding: .25rem .5rem;
-  background-color: hsl(189, 41%, 97%);
+  background-color: var(--lgr-cyan-2);
   width: 100%;
+  border: 2px solid var(--lgr-cyan-2);
+}
+
+input:focus{
+  border: 2px solid hsl(172, 67%, 45%);
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+input::placeholder{
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
 }
 
 header{
@@ -54,6 +78,18 @@ main{
   padding: 1rem;
   border-radius: 1rem;
   max-width: 600px;
+}
+
+.para{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-para{
+  color: hsl(355, 85%, 61%);
+  font-weight: 700;
+  font-size: .9rem;
 }
 
 .input-sec--para{
@@ -78,6 +114,17 @@ main{
   font-weight: 700;
   background: var(--vdr-cyan);
   color: var(--txt-clr-sec);
+  transition: 0.2s all linear;
+}
+
+
+.percentage-btn:hover{
+  background: hsl(172, 67%, 75%);
+  color: var(--vdr-cyan);
+}
+
+.percentage-btn:active{
+  transform: scale(0.9);
 }
 
 .custom-percentage{
@@ -121,6 +168,14 @@ main{
   background: var(--str-cyan);
   font-weight: 700;
   text-transform: uppercase;
+  transition: 0.2s all linear;
+}
+
+.reset:hover{
+  background: hsl(172, 67%, 75%);
+}
+.reset:active{
+  transform: scale(0.9);
 }
 
 @media (min-width: 700px) {
@@ -130,6 +185,7 @@ main{
   main{
     display: flex;
     max-width: 900px;
+    padding: .5rem 1rem;
   }
   main>*{
     width: 100%;
