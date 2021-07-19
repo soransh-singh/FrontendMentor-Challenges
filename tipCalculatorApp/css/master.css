@@ -139,6 +139,13 @@ main{
   font-weight: 700;
 }
 
+.input-amount{
+  background-image: url("./../images/icon-dollar.svg");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  background-position: left 1rem top .5rem;
+}
+
 .input-people{
   background-image: url("./../images/icon-person.svg");
   background-repeat: no-repeat;
