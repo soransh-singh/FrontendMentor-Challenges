@@ -139,6 +139,13 @@ main{
   font-weight: 700;
 }
 
+.input-people{
+  background-image: url("./../images/icon-person.svg");
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-position: left 1rem top .5rem;
+}
+
 .render-sec{
   margin: 1rem .5rem;
   padding: 2rem 1rem;
