@@ -26,11 +26,11 @@
     <img src="./images/logo.svg" alt="spliter">
   </header>
   <main>
-    <div class="input-sec">
+    <form class="input-sec">
 
         <div class="">
           <div class="para">
-            <p class="input-sec--para">Bill</p>
+            <label for="bill-amount" class="input-sec--para">Bill</label>
             <p class="input-amount-err error-para"></p>
           </div>
           <input
@@ -44,25 +44,25 @@
         </div>
 
         <div class="">
-          <p class="input-sec--para">Select Tip %</p>
+          <label for="tip-percentage" class="input-sec--para">Select Tip %</label>
           <div class="sec-percentage-btns">
-            <button type="button" name="button" class="percentage-btn" data-percentage = "5">5%</button>
-            <button type="button" name="button" class="percentage-btn" data-percentage = "10">10%</button>
-            <button type="button" name="button" class="percentage-btn" data-percentage = "15">15%</button>
-            <button type="button" name="button" class="percentage-btn" data-percentage = "25">25%</button>
-            <button type="button" name="button" class="percentage-btn" data-percentage = "50">50%</button>
-            <input type="number" name="custom-tip" class="custom-percentage" placeholder="Custom" min="1">
+            <button type="button" name="tip-percentage" class="percentage-btn" data-percentage = "5">5%</button>
+            <button type="button" name="tip-percentage" class="percentage-btn" data-percentage = "10">10%</button>
+            <button type="button" name="tip-percentage" class="percentage-btn" data-percentage = "15">15%</button>
+            <button type="button" name="tip-percentage" class="percentage-btn" data-percentage = "25">25%</button>
+            <button type="button" name="tip-percentage" class="percentage-btn" data-percentage = "50">50%</button>
+            <input type="number" name="tip-percentage" class="custom-percentage" placeholder="Custom" min="1">
           </div>
         </div>
 
         <div class="">
           <div class="para">
-            <p class="input-sec--para">Number of People</p>
+            <label for="" class="input-sec--para">Number of People</label>
             <p class="input-people-err error-para"></p>
           </div>
           <input type="number" name="people" id="no-people" class="input-people" value="1" min="1">
         </div>
-    </div>
+    </form>
 
       <div class="render-sec">
 

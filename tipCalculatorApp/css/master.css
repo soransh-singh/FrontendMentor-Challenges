@@ -139,6 +139,11 @@ main{
   font-weight: 700;
 }
 
+.percentage-btn--active{
+  background-color: var(--str-cyan);
+  color: var(--vdr-cyan);
+}
+
 .input-amount{
   background-image: url("./../images/icon-dollar.svg");
   background-repeat: no-repeat;

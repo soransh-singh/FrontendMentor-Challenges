@@ -14,9 +14,6 @@ window.addEventListener("load", ()=>{
   const amountErr = document.querySelector(".input-amount-err")
   const peopleErr = document.querySelector(".input-people-err")
 
-  console.log(amountErr);
-  console.log(peopleErr);
-
   const reset = document.querySelector(".reset")
 
   let varAmount = 0
@@ -27,12 +24,13 @@ window.addEventListener("load", ()=>{
   perPersonRender.textContent = `$00.00`
 
   function calc() {
-    const tipTotal = (varAmount*varTipPercentage)/100
-    tipAmountRender.textContent = `$${tipTotal.toFixed(2)}`
     if(varNumOfPeople !==0){
+      const tipTotal = ((varAmount*varTipPercentage)/100)/varNumOfPeople
+      tipAmountRender.textContent = `$${tipTotal.toFixed(2)}`
       const perPerson = (varAmount + tipTotal)/varNumOfPeople
       perPersonRender.textContent = `$${perPerson.toFixed(2)}`
     }else{
+      tipAmountRender.textContent = `$00.00`
       perPersonRender.textContent = `$00.00`
     }
   }
@@ -56,12 +54,19 @@ window.addEventListener("load", ()=>{
 
   percBtns.forEach((btn) => {
     btn.addEventListener("click", ()=>{
+      percBtns.forEach((rbtn) => {
+        rbtn.classList.remove("percentage-btn--active")
+      });
       varTipPercentage = Number(btn.dataset["percentage"])
+      btn.classList.add("percentage-btn--active")
       calc()
     })
   })
 
   customPerc.addEventListener("input", ()=>{
+    percBtns.forEach((rbtn) => {
+      rbtn.classList.remove("percentage-btn--active")
+    });
     varTipPercentage = Number(customPerc.value)
     calc()
   })
