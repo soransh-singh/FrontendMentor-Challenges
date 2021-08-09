@@ -54,8 +54,8 @@ Help others by giving feedback on their solutions.
  | intro Component Signup Form |   [challenge Hub](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/introComponentSignupForm/index.html) |   [code](./introComponentSignupForm) |  
  | Blogr Landing Page | [challenge Hub](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP) |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/blogrLandingPage/index.html) |   [code](./blogrLandingPage) |  
  | Insure Landing Page | [challenge Hub](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8) |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/insureLandingPage/index.html) |   [code](./insureLandingPage) |  
- |Tip Calculator App|[challenge Hub](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) | [code](./tipCalculatorApp)  | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/tipCalculatorApp/index.html) |
-
+ |Tip Calculator App|[challenge Hub](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) |  [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/tipCalculatorApp/index.html) | [code](./tipCalculatorApp)|
+ |order Summary Component| [challenge hub]() | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/orderSummaryComponent/index.html) | [code](./orderSummaryComponent) |
 ## Author:
 
 [Soransh Singh](https://soransh-singh.github.io/)
