@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  font-weight: 700;
+  cursor: pointer;
+}
+
+span,small{
+  display: block;
+}
+
+button{
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+main{
+  margin: 1rem 1.25rem;
+  min-height: max(600px, 90vh);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.component{
+  max-width: 445px;
+  text-align: center;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.image>img{
+  border-radius: 1rem 1rem 0 0;
+}
+
+.content{
+  margin: 1.25rem;
+}
+
+.heading{
+  font-size: 1.25rem;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.para{
+  margin: 1rem auto;
+  color: hsl(224, 23%, 55%);
+  max-width: calc(375px - 2rem);
+  /* font-size: calc(.9rem + .1vw); */
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.item{
+  margin: 2rem auto;
+  max-width: calc(375px - 2rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1rem .5rem;
+  border-radius: 1rem;
+}
+
+.item__img{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+}
+.item__img:hover{
+  transform: scale(1.1)rotate(360deg);
+  box-shadow: 0 0 8px 2px hsl(245, 75%, 52%);
+}
+
+.item__img:active{
+  transform: scale(0.9)rotate(360deg);
+}
+
+.item__music-plan{
+  text-align: left;
+}
+
+.item__music-plan>strong{
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.item__music-plan>small{
+  color: hsl(224, 23%, 55%);
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+.item__change{
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+  font-size: .9rem;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.item__change:hover{
+  color: hsla(245, 75%, 52%, 0.8);
+  text-decoration: none;
+}
+
+.btn-payment{
+  width: 100%;
+  max-width: calc(375px - 2rem);
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 900;
+  box-shadow: 0px 8px 16px 2px hsla(224, 23%, 55%, 0.8);
+  transition: background-color 0.1s linear;
+  transition: transform 0.3s linear;
+}
+
+.btn-payment:hover{
+  background-color: hsla(245, 75%, 52%, 0.8);
+}
+
+.btn-payment:active{
+  background-color: hsl(245, 75%, 52%);
+  transform: scale(0.9);
+}
+
+.btn-cancel{
+  font-size: .9rem;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.btn-cancel:hover{
+  color: hsl(223, 47%, 23%);
+}
+
+@media (min-width: 700px) {
+  body{
+    background-image: url("./images/pattern-background-desktop.svg");
+  }
+}
+
+
+.attribution {
+  display: block;
+  font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
