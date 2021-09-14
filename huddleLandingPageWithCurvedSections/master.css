@@ -1,0 +1,154 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1,h2{
+  font-family: 'Poppins', sans-serif;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer{
+  text-align: left;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+header img{
+  max-width: 150px;
+}
+
+header a{
+  font-size: .8rem;
+  color: hsl(322, 100%, 66%);
+  padding: .5rem 1.2rem;
+  border: solid 1px hsl(322, 100%, 66%);
+  border-radius: 1.5rem;
+  font-weight: 600;
+  transition: 0.3s linear;
+}
+
+header a:hover{
+  background: hsl(322, 100%, 66%);
+  color: white;
+}
+
+.hero__content{
+  margin: 6rem 0;
+  padding: 0 1rem;
+}
+
+.hero__content h1{
+  font-size: calc(1.5rem + 1vw);
+}
+
+.hero__content p{
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.hero__content a{
+  padding: .5rem 2rem;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border: solid 2px hsl(322, 100%, 66%);
+  border-radius: 1.5rem;
+  font-weight: 700;
+}
+
+.stat{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat__block{
+  text-align: left;
+  min-width: 180px;
+  margin: 2rem auto;
+}
+
+.stat__block img{
+  padding: 0 2rem;
+  max-width: 6rem;
+}
+
+.stat__block h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 0;
+  text-align: center;
+}
+
+.stat__block p {
+  text-align: center;
+}
+
+section{
+  margin: 2rem 0;
+  padding: 4rem 1rem;
+}
+
+section:nth-of-type(2n + 1){
+  background: hsl(207, 100%, 98%);
+}
+
+section h1{
+  font-size: 1.75rem;
+}
+
+section p{
+  font-size: calc(.8rem + .5vw);
+  font-weight: 600;
+}
+
+.action{
+  max-width: 500px;
+  margin: 4rem auto;
+
+}
+
+.action a{
+  color: white;
+  background: hsl(322, 100%, 66%);
+  padding: .5rem 1.2rem;
+  border: solid 1px hsl(322, 100%, 66%);
+  border-radius: 1.5rem;
+  font-weight: 600;
+  transition: 0.3s linear;
+}
+
+footer{
+  color: white;
+  background-color: hsl(192, 100%, 9%);
+  padding: 4rem 1rem;
+}
