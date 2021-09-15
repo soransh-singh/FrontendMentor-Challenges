@@ -19,8 +19,7 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+  
   </style>
 </head>
 <body>
@@ -61,45 +60,64 @@
   </div>
 
   <main>
+    <picture>
+      <source media="(min-width:375px)" srcset="./images/bg-section-top-desktop-1.svg">
+        <img src="./images/bg-section-top-mobile-1.svg" alt="Flowers" style="width:auto;">
+      </picture>
     <section>
       <div>
         <img src="./images/illustration-grow-together.svg" alt="">
       </div>
-      <div class="">
+      <div class="section__content">
         <h1>Grow Together</h1>
         <p>Generate meaningful discussions with your audience and build a strong, loyal community.
         Think of the insightful conversations you miss out on with a feedback form.</p>
       </div>
     </section>
+    <picture>
+      <source media="(min-width:375px)" srcset="./images/bg-section-bottom-desktop-1.svg">
+        <img src="./images/bg-section-bottom-mobile-1.svg" alt="Flowers" style="width:auto;">
+      </picture>
 
     <section>
       <div>
         <img src="./images/illustration-flowing-conversation.svg" alt="">
       </div>
-      <div class="">
+      <div class="section__content">
         <h1>Flowing Conversations</h1>
         <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have
         just-in-time loading for a more natural flow.</p>
       </div>
     </section>
 
+    <picture>
+      <source media="(min-width:375px)" srcset="./images/bg-section-top-desktop-2.svg">
+        <img src="./images/bg-section-top-mobile-2.svg" alt="Flowers" style="width:auto;">
+      </picture>
     <section>
       <div>
         <img src="./images/illustration-your-users.svg" alt="">
       </div>
-      <div class="">
+      <div class="section__content">
         <h1>Your Users</h1>
         <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,
         once signed in to your app, your users can start chatting immediately.</p>
       </div>
     </section>
+    <picture>
+      <source media="(min-width:375px)" srcset="./images/bg-section-bottom-desktop-2.svg">
+        <img src="./images/bg-section-bottom-mobile-2.svg" alt="Flowers" style="width:auto;">
+      </picture>
 
     <div class="action">
       <h1>Ready To Build Your Community?</h1>
       <a href="#">Get Started For Free</a>
     </div>
   </main>
-
+  <picture class="footer_bg">
+    <source media="(min-width:375px)" srcset="./images/bg-footer-top-desktop.svg">
+      <img src="./images/bg-footer-top-mobile.svg" alt="Flowers" style="width:auto;">
+  </picture>
   <footer>
     <div class="footer__newsletter">
       <h2>Newsletter</h2>
@@ -113,7 +131,7 @@
     </div>
 
     <div class="footer__contact">
-      <img class="logo" src="./images/footer-logo.svg" alt="Huddle">
+      <img class="logo" src="./images/logo.svg" alt="Huddle">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
       vestibulum a, ultrices quis sem.</p>
 
@@ -128,6 +146,8 @@
         </ul>
       </ul>
     </div>
+
+
   </footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

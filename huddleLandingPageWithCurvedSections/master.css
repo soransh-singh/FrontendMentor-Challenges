@@ -70,6 +70,7 @@ header a:hover{
 
 .hero__content p{
   font-weight: 500;
+  font-size: calc(1rem + .2vw);
   line-height: 1.5;
   max-width: 600px;
   margin: 2rem auto;
@@ -113,10 +114,27 @@ header a:hover{
   text-align: center;
 }
 
+picture, picture img{
+  margin-bottom: -.5rem;
+}
+
+main>picture:nth-of-type(2n + 1), main>picture:nth-of-type(2n + 1) img{
+    margin-bottom: -2.5rem;
+}
+
+main>picture:nth-of-type(2n), main>picture:nth-of-type(2n) img{
+  margin-top: -2.5rem;
+}
+
+
+
 section{
   margin: 2rem 0;
   padding: 4rem 1rem;
+  position: relative;
+  z-index: 2;
 }
+
 
 section:nth-of-type(2n + 1){
   background: hsl(207, 100%, 98%);
@@ -128,12 +146,11 @@ section h1{
 
 section p{
   font-size: calc(.8rem + .5vw);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .action{
   margin: 4rem auto;
-
 }
 
 .action a{
@@ -145,6 +162,9 @@ section p{
   font-weight: 600;
   transition: 0.3s linear;
 }
+
+.attribution {margin: 0; font-size: 11px; text-align: center; color: white; background-color: hsl(192, 100%, 9%); }
+.attribution a { font-weight: bold;}
 
 footer{
   color: white;
@@ -206,5 +226,80 @@ footer{
 }
 
 @media (min-width: 850px) {
+  header{
+    width: 80%;
+    margin: 2rem auto;
+    padding: 0;
+  }
+  .hero__content{
+    margin: 8rem 0;
+  }
 
+  .stat{
+    flex-direction: row;
+    justify-content: center;
+    margin: 4rem auto;
+    max-width: 700px;
+  }
+
+  section{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 calc(3rem + 2vw);
+  }
+
+  section>*{
+    width: 100%;
+  }
+
+  section:nth-of-type(2n + 1){
+    flex-direction: row-reverse;
+  }
+
+  .section__content{
+    margin: 0 4rem;
+  }
+
+  .action{
+    margin: 8rem auto;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  footer>*{
+    width: 100%;
+  }
+
+  .footer__newsletter p{
+    max-width: 450px;
+  }
+
+  .footer__newsletter--form{
+    flex-direction: row;
+  }
+
+  .footer__contact p{
+    max-width: 300px;
+  }
+
+  .footer__newsletter--form>*{
+    width: 100%;
+  }
+  .footer__newsletter--form input[type="email"]{
+    min-width: 200px;
+  }
+  .footer__newsletter--form input[type="submit"]{
+    max-width: calc(150px + 2vw);
+    margin-left: 50px;
+  }
+
+  .footer__contact{
+    margin: auto;
+  }
 }
