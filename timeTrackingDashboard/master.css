@@ -1,0 +1,95 @@
+:root{
+  font-size: 18px;
+}
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background-color: hsl(226, 43%, 10%);
+  color: white;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container{
+  margin: 4rem 1rem;
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(1, 1fr);
+  grid-gap: 1rem;
+  max-width: 1000px;
+}
+
+.element, .report{
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.element__container{
+  background-color:  hsl(235, 46%, 20%);
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(2, 1fr);
+  grid-row-gap: .5rem;
+  border-radius: 1rem;
+}
+
+.element__time{
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.element__container>img,.element__prev-time{
+  justify-self: end;
+  align-self: center;
+}
+
+.report{
+
+}
+
+.report__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(246, 80%, 60%);
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.report__header img{
+  width: 75px;
+}
+
+.report__header h1{
+  font-size: calc(1.5rem + .5vw);
+  margin: 0;
+  font-weight: 300;
+}
+
+.report__buttons{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.report__buttons button{
+  background-color: transparent;
+  color: hsl(235, 45%, 61%);
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+
+.work{
+  background-color: hsl(15, 100%, 70%);
+}
