@@ -13,6 +13,9 @@
 
   <link rel="stylesheet" href="./master.css">
 
+  <!-- Main Js file -->
+  <script src="./main.js" charset="utf-8"></script>
+
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -33,9 +36,9 @@
         </div>
       </div>
       <div class="report__buttons">
-        <button>Daily</button>
-        <button>Weekly</button>
-        <button>Monthly</button>
+        <button data-period="daily" class="button">Daily</button>
+        <button data-period="weekly" class="button">Weekly</button>
+        <button data-period="monthly" class="button">Monthly</button>
       </div>
     </div>
 
@@ -43,9 +46,9 @@
       <div class="element__container">
         <b>Work</b>
         <img src="./images/icon-ellipsis.svg" alt="">
-        <div class="element__time">5hrs</div>
+        <div  data-activity="Work" class="current element__time">5hrs</div>
         <div class="element__prev-time">
-          <span>Previous</span> - <span>7hrs</span>
+          <span>Previous</span>-<span class="previous" data-activity="Work">7hrs</span>
         </div>
       </div>
     </div>
@@ -54,9 +57,9 @@
       <div class="element__container">
         <b>Play</b>
         <img src="./images/icon-ellipsis.svg" alt="">
-        <div>1hr</div>
-        <div class="">
-          <span>Previous</span> - <span>2hrs</span>
+        <div  data-activity="Play" class="current element__time">1hr</div>
+        <div class="element__prev-time">
+          <span>Previous</span>-<span class="previous" data-activity="Play">2hrs</span>
         </div>
       </div>
     </div>
@@ -66,9 +69,9 @@
       <div class="element__container">
         <b>Study</b>
         <img src="./images/icon-ellipsis.svg" alt="">
-        <div>0hrs</div>
-        <div class="">
-          <span>Previous</span> - <span>1hr</span>
+        <div  data-activity="Study" class="current element__time">0hrs</div>
+        <div class="element__prev-time">
+          <span>Previous</span>-<span class="previous" data-activity="Study">1hr</span>
         </div>
       </div>
     </div>
@@ -77,9 +80,9 @@
       <div class="element__container">
         <b>Exercise</b>
         <img src="./images/icon-ellipsis.svg" alt="">
-        <div>1hr</div>
-        <div class="">
-          <span>Previous</span> - <span>1hr</span>
+        <div data-activity="Exercise" class="current element__time">1hr</div>
+        <div class="element__prev-time">
+          <span>Previous</span>-<span class="previous" data-activity="Exercise">1hr</span>
         </div>
       </div>
     </div>
@@ -88,9 +91,9 @@
       <div class="element__container">
         <b>Social</b>
         <img src="./images/icon-ellipsis.svg" alt="">
-        <div>1hr</div>
-        <div class="">
-          <span>Previous</span> - <span>3hrs</span>
+        <div  data-activity="Social" class="current element__time">1hr</div>
+        <div class="element__prev-time">
+          <span>Previous</span>-<span class="previous" data-activity="Social">3hrs</span>
         </div>
       </div>
     </div>
@@ -99,9 +102,9 @@
       <div class="element__container">
         <b>Self Care</b>
         <img src="./images/icon-ellipsis.svg" alt="">
-        <div>0hrs</div>
-        <div class="">
-          <span>Previous</span> - <span>1hr</span>
+        <div  data-activity="Self Care" class="current element__time">0hrs</div>
+        <div class="element__prev-time">
+          <span>Previous</span>-<span class="previous" data-activity="Self Care">1hr</span>
         </div>
       </div>
     </div>

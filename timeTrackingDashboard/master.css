@@ -8,9 +8,13 @@
 body{
   font-family: 'Rubik', sans-serif;
   margin: 0;
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: hsl(226, 43%, 10%);
   color: white;
+}
+
+b{
+  font-weight: 500;
 }
 
 img{
@@ -20,15 +24,18 @@ img{
 .container{
   margin: 4rem 1rem;
   display: grid;
-  grid-template: repeat(2, auto) / repeat(1, 1fr);
+  grid-template: repeat(8, auto) / repeat(1, 1fr);
   grid-gap: 1rem;
-  max-width: 1000px;
 }
 
 .element, .report{
-  background-color: hsl(235, 46%, 20%);
   border-radius: 1rem;
   overflow: hidden;
+}
+
+.element{
+  background-repeat: no-repeat;
+  background-position: right 10% top -5%;
 }
 
 .element__container{
@@ -49,10 +56,11 @@ img{
 .element__container>img,.element__prev-time{
   justify-self: end;
   align-self: center;
+  color: hsl(236, 100%, 87%);
 }
 
 .report{
-
+  background-color: hsl(235, 46%, 20%);
 }
 
 .report__header{
@@ -65,11 +73,13 @@ img{
 }
 
 .report__header img{
+  border: solid 4px white;
+  border-radius: 50%;
   width: 75px;
 }
 
 .report__header h1{
-  font-size: calc(1.5rem + .5vw);
+  font-size: 1.75rem;
   margin: 0;
   font-weight: 300;
 }
@@ -84,12 +94,104 @@ img{
   background-color: transparent;
   color: hsl(235, 45%, 61%);
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   outline: none;
   border: none;
 }
 
 .work{
+  background-image: url("./images/icon-work.svg"),
+  linear-gradient(180deg, hsl(15, 100%, 70%) 0%, hsl(15, 100%, 70%) 51%, hsl(235, 46%, 20%) 51%, hsl(235, 46%, 20%) 100%);
   background-color: hsl(15, 100%, 70%);
+}
+
+.play{
+  background-image: url("./images/icon-play.svg"),
+  linear-gradient(180deg, hsl(195, 74%, 62%) 0%, hsl(195, 74%, 62%) 51%, hsl(235, 46%, 20%) 51%, hsl(235, 46%, 20%) 100%);
+  background-color: hsl(195, 74%, 62%);
+}
+
+.study{
+  background-image: url("./images/icon-study.svg"),
+  linear-gradient(180deg, hsl(348, 100%, 68%) 0%, hsl(348, 100%, 68%) 51%, hsl(235, 46%, 20%) 51%, hsl(235, 46%, 20%) 100%);
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exercise{
+  background-image: url("./images/icon-exercise.svg"),
+  linear-gradient(180deg, hsl(145, 58%, 55%) 0%, hsl(145, 58%, 55%) 51%, hsl(235, 46%, 20%) 51%, hsl(235, 46%, 20%) 100%);
+  background-color: hsl(145, 58%, 55%);
+}
+
+.social{
+  background-image: url("./images/icon-social.svg"),
+  linear-gradient(180deg, hsl(264, 64%, 52%) 0%, hsl(264, 64%, 52%) 51%, hsl(235, 46%, 20%) 51%, hsl(235, 46%, 20%) 100%);
+  background-color: hsl(264, 64%, 52%);
+}
+
+.selfcare{
+  background-image: url("./images/icon-self-care.svg"),
+  linear-gradient(180deg, hsl(43, 84%, 65%) 0%, hsl(43, 84%, 65%) 51%, hsl(235, 46%, 20%) 51%, hsl(235, 46%, 20%) 100%);
+  background-color: hsl(43, 84%, 65%);
+}
+
+@media (min-width: 500px) {
+  .container{
+    margin: 4rem auto;
+  }
+
+  .element, .report{
+    justify-self: center;
+  }
+
+  .report__header{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+
+  .report__header img{
+    margin-bottom: 1.5rem;
+  }
+
+  .element__time{
+    font-size: 2.25rem;
+    grid-column: span 2;
+  }
+
+  .element__prev-time{
+    justify-self: start;
+  }
+
+}
+
+@media (min-width:850px){
+    .container{
+      grid-template: repeat(2, auto) / repeat(auto-fit, minmax(250px, 1fr));
+      max-width: 1250px;
+      padding: 1rem;
+    }
+
+    .report{
+      grid-row: span 2;
+    }
+
+    .report .element{
+
+    }
+
+    .report__buttons{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .report__buttons>button+button {
+      margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1100px) {
+  .report__header h1{
+    font-size: 2.25rem;
+  }
 }

@@ -56,7 +56,9 @@ Help others by giving feedback on their solutions.
  | Insure Landing Page | [challenge Hub](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8) |   [Live Demo](https://frontend-mentor-challenges-self.vercel.app/insureLandingPage/index.html) |   [code](./insureLandingPage) |  
  |Tip Calculator App|[challenge Hub](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) |  [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/tipCalculatorApp/index.html) | [code](./tipCalculatorApp)|
  |order Summary Component| [challenge hub](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/orderSummaryComponent/index.html) | [code](./orderSummaryComponent) |
- |Huddle Landing Page with curved section| [challenge hub](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2/hub/huddle-landing-page-with-curved-sections-pKFt-qd2n) | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/huddleLandingPageWithCurvedSections/index.html) | [code](./huddleLandingPageWithCurvedSections) |
+ |Huddle Landing Page with curved section| [challenge hub](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2/) | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/huddleLandingPageWithCurvedSections/index.html) | [code](./huddleLandingPageWithCurvedSections) |
+ |Time Tracking Dashboard| [challenge hub](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw) | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/timeTrackingDashboard/index.html) | [code](./timeTrackingDashboard) |
+
 ## Author:
 
 [Soransh Singh](https://soransh-singh.github.io/)
