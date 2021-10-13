@@ -14,13 +14,17 @@ window.addEventListener("load", ()=>{
   buttons.forEach(async (button) => {
     let obj = await getData()
     button.addEventListener("click", ()=>{
+      buttons.forEach(item => {
+        item.classList.remove("active-button")
+      })
+      button.classList.add("active-button")
+
       const period = button["dataset"]["period"]
       previous.forEach((prev)=>{
         const activity = obj.find(({title}) => {
           return title === prev["dataset"]["activity"]
         })
         prev.textContent = activity["timeframes"][period]["previous"]
-        console.log(activity);
       })
 
       current.forEach((cur)=>{
@@ -28,7 +32,6 @@ window.addEventListener("load", ()=>{
           return title === cur["dataset"]["activity"]
         })
         cur.textContent = activity["timeframes"][period]["current"]
-        console.log(activity);
       })
 
     })

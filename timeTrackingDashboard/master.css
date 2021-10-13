@@ -1,7 +1,9 @@
 :root{
   font-size: 18px;
 }
+
 *{
+  cursor: default;
   box-sizing: border-box;
 }
 
@@ -46,6 +48,13 @@ img{
   grid-template: repeat(2, auto) / repeat(2, 1fr);
   grid-row-gap: .5rem;
   border-radius: 1rem;
+  transition: all 0.3s linear;
+}
+
+.element__container:hover{
+  background-color:  hsl(235, 45%, 30%);
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .element__time{
@@ -90,14 +99,29 @@ img{
   justify-content: space-around;
 }
 
-.report__buttons button{
+.button{
   background-color: transparent;
   color: hsl(235, 45%, 61%);
   letter-spacing: 1px;
   font-size: 1rem;
   font-weight: 500;
   outline: none;
-  border: none;
+  border: dashed 2px transparent;
+  transition: all 0.3s linear;
+}
+
+.button:hover{
+  color: hsl(236, 100%, 87%);
+  cursor: pointer;
+}
+
+.button:focus{
+  border: dashed 2px hsl(236, 100%, 87%);
+  border-radius: .25rem;
+}
+
+.active-button{
+  color: hsl(236, 100%, 87%);
 }
 
 .work{
