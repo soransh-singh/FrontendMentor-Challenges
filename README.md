@@ -58,6 +58,7 @@ Help others by giving feedback on their solutions.
  |order Summary Component| [challenge hub](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/orderSummaryComponent/index.html) | [code](./orderSummaryComponent) |
  |Huddle Landing Page with curved section| [challenge hub](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2/) | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/huddleLandingPageWithCurvedSections/index.html) | [code](./huddleLandingPageWithCurvedSections) |
  |Time Tracking Dashboard| [challenge hub](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw) | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/timeTrackingDashboard/index.html) | [code](./timeTrackingDashboard) |
+ |NFT preview Card| [challenge hub](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) | [LiveDemo](https://frontend-mentor-challenges-self.vercel.app/nftPreviewCard/index.html) | [code](./nftPreviewCard) |
 
 ## Author:
 
