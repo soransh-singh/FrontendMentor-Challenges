@@ -1,0 +1,128 @@
+[
+  {
+    "name": "NFT preview card",
+    "img": "./nftPreviewCard/design/desktop-preview.jpg",
+    "description": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
+    "link": {
+      "live": "./nftPreviewCard/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/nftPreviewCard"
+    }
+  },
+  {
+    "name": "Time Tracking Dashboard",
+    "img": "./timeTrackingDashboard/design/desktop-preview.jpg",
+    "description": "A perfect opportunity to practice your CSS Grid skills.For anyone wanting to take it up a notch.",
+    "link": {
+      "live": "./timeTrackingDashboard/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/timeTrackingDashboard"
+    }
+  },
+  {
+    "name": "Order Summary Component",
+    "img": "./orderSummaryComponent/design/desktop-preview.jpg",
+    "description": "A perfect project for newbies who are starting to build confidence with layouts!",
+    "link": {
+      "live": "./orderSummaryComponent/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/orderSummaryComponent"
+    }
+  },
+  {
+    "name": "Tip calculator app",
+    "img": "./tipCalculatorApp/design/desktop-preview.jpg",
+    "description": "This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!",
+    "link": {
+      "live": "./tipCalculatorApp/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/tipCalculatorApp"
+    }
+  },
+  {
+    "name": "Single Price Component",
+    "img": "./singlePriceGridComponent/design/preview.jpg",
+    "description": "In this challenge, you will build out the pricing component to the designs provided. This is perfect for beginners and people who want to complete a smaller challenge.",
+    "link": {
+      "live": "./singlePriceGridComponent/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/singlePriceGridComponent"
+    }
+  },
+  {
+    "name": "Profile Card",
+    "img": "./profileCardComponent/design/preview.jpg",
+    "description": "This is a perfect challenge to test your layout skills. The card layout doesn't shift,so it's also great for those that haven't dived into responsive websites yet!",
+    "link": {
+      "live": "./profileCardComponent/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/profileCardComponent"
+    }
+  },
+  {
+    "name": "Social Proof",
+    "img": "./socialProof/design/preview.jpg",
+    "description": "This project will test your layout skills. If you'restarting to get confident with Flexbox or Grid, this will provide a nice challenge!",
+    "link": {
+      "live": "./socialProof/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/socialProof"
+    }
+  },
+  {
+    "name": "Testimonal Grid Section",
+    "img": "./testimonialsGridSection/design/preview.jpg",
+    "description": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+    "link": {
+      "live": "./testimonialsGridSection/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/testimonialsGridSection"
+    }
+  },
+  {
+    "name": "Base Apparel",
+    "img": "./baseApparel/design/preview.jpg",
+    "description": "This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.",
+    "link": {
+      "live": "./baseApparel/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/baseApparel"
+    }
+  },
+  {
+    "name": "huddle Landing Page Feature Blocks",
+    "img": "./huddleLandingPageFeatureBlocks/design/preview.jpg",
+    "description": "This challenge is perfect if you're wanting to practice your layout skills. If you're starting to get a bit more confident laying out a web page, give this project a go.",
+    "link": {
+      "live": "./huddleLandingPageFeatureBlocks/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/huddleLandingPageFeatureBlocks"
+    }
+  },
+  {
+    "name": "huddle Landing Page",
+    "img": "./huddleLandingPage/design/preview.jpg",
+    "description": "A perfect challenge for beginners, this project will get you working with a two column layout.",
+    "link": {
+      "live": "./huddleLandingPage/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/huddleLandingPage"
+    }
+  },
+  {
+    "name": "ping Coming Soon Page",
+    "img": "./pingComingSoonPage/design/preview.jpg",
+    "description": "This challenge is great for beginners and offers a chance to practice basic client-side form validation.",
+    "link": {
+      "live": "./pingComingSoonPage/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/pingComingSoonPage"
+    }
+  },
+  {
+    "name": "social Media Dashboard",
+    "img": "./socialMediaDashboard/design/preview.jpg",
+    "description": "This challenge will be a perfect chance to practice your Grid skills. The color theme switcher also adds a nice additional test.",
+    "link": {
+      "live": "./socialMediaDashboard/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/socialMediaDashboard"
+    }
+  },
+  {
+    "name": "Pricing Component With Toggle",
+    "img": "./pricingComponentWithToggle/design/preview.jpg",
+    "description": "This challenge will get you thinking about building an accessible custom toggle control and also test your layout skills.",
+    "link": {
+      "live": "./pricingComponentWithToggle/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/pricingComponentWithToggle"
+    }
+  }
+]
