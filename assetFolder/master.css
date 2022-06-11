@@ -25,7 +25,7 @@ header{
   color:  rgb(70,102,255);
 }
 
-section{
+main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
