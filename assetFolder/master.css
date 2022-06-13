@@ -1,9 +1,19 @@
+:root{
+  --clr-pr: 	230 100% 64%;
+}
+
 *{
   box-sizing: border-box;
 }
 
 body{
   margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.6;
+  cursor: default;
+}
+
+h1,h2,h3{
   font-family: 'Yatra One', cursive;
 }
 
@@ -15,6 +25,7 @@ a{
   text-decoration: none;
   display: inline-block;
   color: inherit;
+  cursor: pointer;
 }
 
 header{
@@ -22,7 +33,7 @@ header{
 }
 
 .frontend__link{
-  color:  rgb(70,102,255);
+  color:  hsl(var(--clr-pr));
 }
 
 main{
@@ -40,6 +51,7 @@ main{
   transition: all 0.2s ease-in-out;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .project:hover{
@@ -55,29 +67,37 @@ main{
 
 .project__name{
   font-size: 1.25rem;
+  color: hsl(var(--clr-pr));
 }
 
 .project__description{
-  font-family: 'Noto Sans', sans-serif;
+  min-height: 100px;
 }
 
 .project__link{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .project__link>a{
-  padding: .75rem;
-  width: 8rem;
+  padding: 0.25rem 0.75rem;
+  min-width: 6rem;
   background: white;
-  color: rgb(70,102,255);
-  border: solid 2px rgb(70,102,255);
+  color: hsl(var(--clr-pr));
+  border: solid 2px hsl(var(--clr-pr));
   text-align: center;
   border-radius: 1.5rem;
-  transition: 0.2s all linear;
+  transition: 0.3s all linear;
 }
 
 .project__link>a:hover{
-  background:  rgb(70,102,255);
+  background:  hsl(var(--clr-pr));
   color: white;
+  transform: scale(1.05);
+}
+
+.project__link>a:active{
+  background: white;
+  color: hsl(var(--clr-pr));
+  transform: scale(0.95);
 }
