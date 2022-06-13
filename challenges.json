@@ -124,5 +124,179 @@
       "live": "./pricingComponentWithToggle/index.html",
       "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/pricingComponentWithToggle"
     }
+  },
+
+  {
+    "name": "coding Bootcamp Slide",
+    "img": "./codingBootcampSlider/design/preview.jpg",
+    "description": "This challenge will be a nice test if you're new to JavaScript. It's also a great opportunity to play around with content animations and transitions.",
+    "link": {
+      "live": "./codingBootcampSlider/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/codingBootcampSlider"
+    }
+  },
+
+
+  {
+    "name": "faq Accordion Card",
+    "img": "./faqAccordionCard/design/preview.jpg",
+    "description": "In this challenge, you'll be building out an FAQ accordion. This is an extremely common front-end pattern, so it's a great opportunity to get some practice in!",
+    "link": {
+      "live": "./faqAccordionCard/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/faqAccordionCard"
+    }
+  },
+
+  {
+    "name": "four Card Feature Section",
+    "img": "./fourCardFeatureSection/design/preview.jpg",
+    "description": "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
+    "link": {
+      "live": "./fourCardFeatureSection/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/fourCardFeatureSection"
+    }
+  },
+
+  {
+    "name": "fylo Dark Theme Landing Page",
+    "img": "./fyloDarkThemeLandingPage/design/preview.jpg",
+    "description": "This design has some nice layout challenges in it. A perfect training ground to practice your Flexbox and/or Grid skills.",
+    "link": {
+      "live": "./fyloDarkThemeLandingPage/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/fyloDarkThemeLandingPage"
+    }
+  },
+
+  {
+    "name": "fylo Landing Page",
+    "img": "./fyloLandingPage/design/preview.jpg",
+    "description": "This project is great if you're starting to get confident with slightly more complex layouts. The second section with the testimonial area will provide a nice challenge.",
+    "link": {
+      "live": "./fyloLandingPage/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/fyloLandingPage"
+    }
+  },
+
+  {
+    "name": "loopstudios Landing Page",
+    "img": "./loopstudiosLandingPage/design/preview.jpg",
+    "description": "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
+    "link": {
+      "live": "./loopstudiosLandingPage/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/loopstudiosLandingPage"
+    }
+  },
+
+  {
+    "name": "Huddle Landing Page",
+    "img": "./huddleLandingPageWithCurvedSections/design/desktop-preview.jpg",
+    "description": "Practice using pseudo-elements for styling extras and the CSS position property for the sections with curved edges.",
+    "link": {
+      "live": "./huddleLandingPageWithCurvedSections/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/huddleLandingPageWithCurvedSections"
+    }
+  },
+
+  {
+    "name": "3 Column Preview Card",
+    "img": "./3ColumnPreviewCard/design/preview.jpg",
+    "description": "This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects.",
+    "link": {
+      "live": "./3ColumnPreviewCard/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/3ColumnPreviewCard"
+    }
+  },
+
+  {
+    "name": "article Preview",
+    "img": "./articlePreview/design/preview.jpg",
+    "description": "Practice your layout skills with this article preview component. There's lots of fun to be had playing around with animations for the sharing icons as well.",
+    "link": {
+      "live": "./articlePreview/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/articlePreview"
+    }
+  },
+
+  {
+    "name": "clipboard Landing Page",
+    "img": "./clipboardLandingPage/design/preview.jpg",
+    "description": "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+    "link": {
+      "live": "./clipboardLandingPage/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/clipboardLandingPage"
+    }
+  },
+
+  {
+    "name": "intro Component Signup Form",
+    "img": "./introComponentSignupForm/design/preview.jpg",
+    "description": "Practice building out a sign-up form complete with client-side validation using JavaScript.",
+    "link": {
+      "live": "./introComponentSignupForm/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/introComponentSignupForm"
+    }
+  },
+
+
+  {
+    "name": "Blogr Landing Page",
+    "img": "./blogrLandingPage/design/preview.jpg",
+    "description": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
+    "link": {
+      "live": "./blogrLandingPage/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/blogrLandingPage"
+    }
+  },
+
+  {
+    "name": "Insure Landing Page",
+    "img": "./insureLandingPage/design/preview.jpg",
+    "description": "Test your layout skills with this HTML & CSS only landing page. This challenge is perfect if you're starting to get confident in laying out web pages.",
+    "link": {
+      "live": "./insureLandingPage/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/insureLandingPage"
+    }
+  },
+
+  {
+    "name": "Calculator app",
+    "img": "./assetFolder/calculator-preview.jpg",
+    "description": "This calculator app will be a great test of your CSS and JS skills especially. If you're wanting to practice using Grid, this challenge will be perfect for you!",
+    "link": {
+      "live": "https://calculator-app-tau.vercel.app/",
+      "code": "https://github.com/soransh-singh/calculatorApp-FrontendMentor"
+    }
+  },
+
+
+  {
+    "name": "Sunnyside agency landing page",
+    "img": "./assetFolder/sunnyside-preview.jpg",
+    "description": "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.",
+    "link": {
+      "live": "https://sunnyside-agency-landing-page-eight.vercel.app/",
+      "code": "https://github.com/soransh-singh/sunnysideAgencyLandingPage-FrontendMentor"
+    }
+  },
+
+
+  {
+    "name": "Interactive pricing component",
+    "img": "./assetFolder/priceComponent-preview.jpg",
+    "description": "In this project, you'll build out an interactive pricing component complete with custom range input slider and pricing toggle. A perfect way to test your JS skills!",
+    "link": {
+      "live": "https://interactive-pr-git-main-sorans-695672.vercel.app/",
+      "code": "https://github.com/soransh-singh/interactivePricingComponent-FrontendMentor"
+    }
+  },
+
+  {
+    "name": "Stats preview card component",
+    "img": "./assetFolder/statCard-preview.jpg",
+    "description": "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
+    "link": {
+      "live": "https://interactive-pr-git-main-sorans-695672.vercel.app/",
+      "code": "https://github.com/soransh-singh/statsPreviewCard-FrontendMentor"
+    }
   }
 ]
