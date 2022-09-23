@@ -1,5 +1,15 @@
 [
   {
+    "name": "Product preview card",
+    "img": "./productPreviewCard/design/desktop-preview.jpg",
+
+    "description": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
+    "link": {
+      "live": "./productPreviewCard/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/productPreviewCard"
+    }
+  },
+  {
     "name": "NFT preview card",
     "img": "./nftPreviewCard/design/desktop-preview.jpg",
     "description": "This HTML & CSS only challenge is perfect for anyone just starting out or anyone wanting a small project to play around with.",
