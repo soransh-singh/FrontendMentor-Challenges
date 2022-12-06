@@ -4,7 +4,7 @@
   3) made html template.
 */
 
-const CHALLENGES = "https://raw.githubusercontent.com/soransh-singh/FrontendMentor-Challenges/main/challenges.json"
+const CHALLENGES = "https://frontend-mentor-challenges-self.vercel.app/challenges.json"
 
 async function loadChallenges(){
   const response = await fetch(CHALLENGES)
