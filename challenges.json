@@ -1,5 +1,16 @@
 [
   {
+    "name": "Blog preview card",
+    "img": "./productPreviewCard/design/desktop-preview.jpg",
+
+    "description": "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+    "link": {
+      "live": "./blogPreviewCard/index.html",
+      "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/blogPreviewCard"
+    },
+    "difficulty": 1
+  },
+  {
     "name": "Product preview card",
     "img": "./productPreviewCard/design/desktop-preview.jpg",
 
@@ -7,7 +18,8 @@
     "link": {
       "live": "./productPreviewCard/index.html",
       "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/productPreviewCard"
-    }
+    },
+    "difficulty": 1
   },
   {
     "name": "NFT preview card",
@@ -16,7 +28,8 @@
     "link": {
       "live": "./nftPreviewCard/index.html",
       "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/nftPreviewCard"
-    }
+    },
+    "difficulty": 1
   },
   {
     "name": "Time Tracking Dashboard",
@@ -25,7 +38,8 @@
     "link": {
       "live": "./timeTrackingDashboard/index.html",
       "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/timeTrackingDashboard"
-    }
+    },
+    "difficulty":2
   },
   {
     "name": "Order Summary Component",
@@ -34,7 +48,8 @@
     "link": {
       "live": "./orderSummaryComponent/index.html",
       "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/orderSummaryComponent"
-    }
+    },
+    "difficulty":1
   },
   {
     "name": "Tip calculator app",
@@ -43,7 +58,8 @@
     "link": {
       "live": "./tipCalculatorApp/index.html",
       "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/tipCalculatorApp"
-    }
+    },
+    "difficulty":2
   },
   {
     "name": "Single Price Component",
@@ -52,7 +68,8 @@
     "link": {
       "live": "./singlePriceGridComponent/index.html",
       "code": "https://github.com/soransh-singh/FrontendMentor-Challenges/tree/main/singlePriceGridComponent"
-    }
+    },
+    "difficulty":1
   },
   {
     "name": "Profile Card",

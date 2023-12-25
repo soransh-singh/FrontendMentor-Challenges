@@ -1,0 +1,116 @@
+:root{
+    --clr-pr: 47 88% 63%;
+    --clr-white: 0 0% 100%;
+    --clr-gray: 0 0% 50%;
+    --clr-black: 0 0% 7%;
+    --font: 'Figtree', sans-serif;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    cursor:default;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    margin: 0;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    background-color: hsl(var(--clr-pr));
+    font-weight: 600;
+}
+
+main{
+    max-width: 400px;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-inline: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: hsl(var(--clr-white));
+    /* border: solid 1px hsl(var(--clr-black)); */
+    box-shadow: 6px 6px 0px hsl(var(--clr-black)), 8px 6px 12px hsl(var(--clr-black)/0.6);
+    transition: all 0.2s ease-in-out;
+}
+
+main>*+*{
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.banner__container{
+    overflow: hidden;
+}
+
+.banner{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+
+.block__time{
+    font-size: 14px;
+}
+
+.block__head{
+    font-weight: 800;
+    font-size: 1.5rem;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    &:hover{
+        color: hsl(var(--clr-pr));
+    }
+}
+
+
+.block__content{
+    color: hsl(var(--clr-black)/0.6);
+}
+
+.block__footer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    >span{
+        font-weight: 800;
+        &:hover{
+            color:  hsl(var(--clr-pr));
+        }
+    }
+    
+    >img{
+        border-radius: 50%;
+        border: solid 2px hsl(var(--clr-black));
+        transition: 0.2s linear;
+        &:hover{
+        border: solid 2px hsl(var(--clr-pr));
+
+        }
+    }
+}
+
+.tag{
+    background-color: hsl(var(--clr-pr));
+    border: solid 2px hsl(var(--clr-pr));
+    display: inline-block;
+    padding-inline: 0.5rem;
+    font-weight: 800;
+    border-radius: 0.2rem;
+    transition: 0.3s linear;
+    letter-spacing: 1px;
+}
